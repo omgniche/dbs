@@ -3544,10 +3544,23 @@
   "https://www.nhl.com/flames/news/after-sneak-peek-coronato-eager-to-wear-hometown-remix-kits",
   "https://www.azcardinals.com/news/trey-mcbride-proving-to-be-all-pro-at-trash-talking-too",
   "https://www.houstontexans.com/news/know-your-foe-texans-vs-chargers-week-9-preview",
-  "https://www.raiders.com/news/expert-game-picks-raiders-or-49ers"
+  "https://www.raiders.com/news/expert-game-picks-raiders-or-49ers",
+  "https://www.nfl.com/news/browns-shedeur-sanders-to-start-at-qb-vs-saints-with-deshaun-watson-in-concussion-protocol",
+  "https://www.nfl.com/news/nfl-trade-grades-evaluating-every-deal-made-ahead-of-the-2026-deadline",
+  "https://www.nfl.com/news/nfc-east-training-camp-2026-preview-cowboys-giants-eagles-commanders",
+  "https://www.mlb.com/news/dodgers-part-ways-hitting-coach-aaron-bates",
+  "https://www.nhl.com/news/nhl-status-report-news-and-notes-november-6-2026",
+  "https://www.panthers.com/news/three-takeaways-from-friday-including-an-element-of-mystery-todd-wash-tyrel-dodson",
+  "https://www.dallascowboys.com/news/here-we-goooo-cowboys-defense-must-turn-pressure-into-turnovers-vs-colts",
+  "https://www.vikings.com/news/guided-united-military-appreciation-connects-bo-richter-chaz-chambliss",
+  "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
+  "https://www.nhl.com/kings/news/la-kings-prospect-liam-lefebvre-continues-to-defy-numbers-with-bigger-goals-yet-to-come",
+  "https://www.nhl.com/wild/news/game-preview-sharks-vs-wild-110626",
+  "https://www.nhl.com/devils/news/hellebuyck-mask-feature-11-6-26",
+  "https://www.nhl.com/penguins/news/get-to-know-spencer-stastney"
  ],
  "days": {
-  "2026-11-06": 3
+  "2026-11-06": 4
  },
  "baselined": [
   "https://www.nfl.com/news/",

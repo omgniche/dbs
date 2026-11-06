@@ -1,0 +1,10 @@
+[build]
+  command = "python3 build.py"
+  publish = "public"
+  # Only rebuild when posts, design or readership numbers change, not on every newsroom scan
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- posts static build.py netlify.toml newsroom/readership.json"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

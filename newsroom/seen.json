@@ -3427,9 +3427,12 @@
   "https://www.nhl.com/jets/news/jets-town-takeover-contest-brings-gameday-experience-and-programming-to-winning-rural-community",
   "https://www.nhl.com/jets/news/jets-fall-just-short-against-defending-champs",
   "https://www.nhl.com/jets/news/gameday-hurricanes-at-jets-x6086",
-  "https://www.nhl.com/jets/news/blog-view-from-the-booth-x2171"
+  "https://www.nhl.com/jets/news/blog-view-from-the-booth-x2171",
+  "https://www.detroitlions.com/news/twentyman-s-mailbag-will-lions-offense-continue-to-use-13-personnel-gibbs-laporta-wright"
  ],
- "days": {},
+ "days": {
+  "2026-11-06": 0
+ },
  "baselined": [
   "https://www.nfl.com/news/",
   "https://www.nba.com/news",

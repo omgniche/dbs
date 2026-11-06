@@ -226,10 +226,17 @@ WRITE_SYSTEM = f"""You write news for DontBetSports. Follow this style guide exa
 
 Reply with only JSON:
 {{"title":"...","description":"one or two sentences for Google results","slug":"short-url-words",
-"body":"the article in markdown"}}"""
+"league":"NFL, NBA, MLB or NHL","body":"the article in markdown"}}"""
 
 def write(item, src):
-    prompt = (f"Write a news post using ONLY this official source.\n"
+    note = ("This link was picked by the editor and may be a news outlet rather than the team. "
+            "Attribute every fact to the source by name, e.g. 'according to ESPN'.\n") if item.get("manual") else ""
+    if item.get("x_post"):
+        note = (f"This source is a post on X by {item['source']}, not an official announcement. Write it as a report: "
+                f"attribute it in the first sentence (e.g. 'according to ESPN's Adam Schefter'), never state it as "
+                f"confirmed, and say the team has not confirmed it unless the post says otherwise. Keep it short, "
+                f"80 to 200 words. The original post will be embedded below your article, so don't repeat it word for word.\n")
+    prompt = (f"Write a news post using ONLY this source.\n{note}"
               f"Source name: {item['source']}\nSource URL: {item['link']}\n"
               f"League: {item['league']}\nTeam: {item['team']}\n\nSOURCE TEXT:\n{src}")
     return as_json(ask(WRITER_MODEL, WRITE_SYSTEM, prompt, 2500))
@@ -259,10 +266,16 @@ def to_markdown(item, draft):
     q = lambda s: '"' + s.replace('"', "'") + '"'
     front = ["---", f"title: {q(draft['title'])}", f"description: {q(draft['description'])}",
              f"date: {datetime.now(TZ).date().isoformat()}", "author: DBS", "category: News"]
-    if item["league"]: front.append(f"league: {item['league']}")
+    league = item["league"] or (draft.get("league") if draft.get("league") in ("NFL", "NBA", "MLB", "NHL") else "")
+    if league: front.append(f"league: {league}")
     front.append("---")
     credit = f"*Source: [{item['source']}]({item['link']})*"
-    return "\n".join(front) + "\n" + draft["body"].strip() + "\n\n" + credit + "\n"
+    embed = ""
+    if item.get("x_post"):
+        link = item["link"].replace("://x.com/", "://twitter.com/")
+        embed = (f'\n\n<blockquote class="twitter-tweet"><a href="{link}">View the post on X</a></blockquote>'
+                 f'<script async src="https://platform.twitter.com/widgets.js"></script>')
+    return "\n".join(front) + "\n" + draft["body"].strip() + embed + "\n\n" + credit + "\n"
 
 def unique_slug(s):
     s = slugify(s) or "news"
@@ -270,7 +283,11 @@ def unique_slug(s):
     return f"{s}-{datetime.now(TZ).strftime('%Y%m%d%H%M')}"
 
 def pr_body(item, sc, check):
-    lines = [f"**Source:** [{item['source']}]({item['link']})",
+    lines = []
+    if item.get("x_post"):
+        lines.append("**⚠️ REPORT:** based on an X post, not an official announcement. "
+                     "Check it's the real reporter's account before merging.")
+    lines += [f"**Source:** [{item['source']}]({item['link']})",
              f"**Type:** {sc.get('type')} · **Score:** {sc.get('score')}/10",
              f"**Fact-check:** {check['verdict']}. {check.get('notes', '')}"]
     if check.get("unsupported"):
@@ -300,11 +317,83 @@ def open_pr(path, content, title, body):
     log(f"  ✓ pull request opened: {r.json()['html_url']}")
 
 
+# ---------------- manual mode ----------------
+def manual_draft(url, sources, seen, stats):
+    """Drafts one story from a link you paste into the Run workflow box. Skips scoring."""
+    u = urlparse(url)
+    first = lambda p: p.strip("/").split("/")[0] if p.strip("/") else ""
+    match = None
+    for s in sources:
+        su = urlparse(s.get("url", ""))
+        if su.netloc == u.netloc and (not s.get("team") or su.netloc.count(".") and
+                                      (first(su.path) == first(u.path) or first(su.path) == "news")):
+            match = s
+            if s.get("team"): break
+    host = u.netloc.replace("www.", "")
+    league = (match or {}).get("league") or next((l for l in ("NFL", "NBA", "MLB", "NHL") if l.lower() in host), "")
+    item = {"id": 0, "source": (match or {}).get("name") or host, "league": league,
+            "team": (match or {}).get("team", ""), "title": "", "summary": "", "link": url, "manual": True}
+    pasted = os.environ.get("MANUAL_TEXT", "").strip()
+    if host in ("x.com", "twitter.com", "mobile.twitter.com"):
+        item["x_post"] = True
+        author, text = "", ""
+        try:
+            r = requests.get("https://publish.twitter.com/oembed",
+                             params={"url": url.replace("://x.com/", "://twitter.com/"), "omit_script": "true"},
+                             headers=UA, timeout=20)
+            r.raise_for_status()
+            data = r.json()
+            author = data.get("author_name", "")
+            p = BeautifulSoup(data.get("html", ""), "html.parser").find("p")
+            text = " ".join(p.get_text(" ").split()) if p else ""
+        except Exception as ex:
+            log(f"  ! couldn't read the X post automatically ({ex})")
+        if not author:
+            author = "@" + first(u.path) if first(u.path) else "a post on X"
+        item["source"] = f"{author} on X"
+        text = (text + " " + pasted).strip()
+        if len(text) < 20:
+            log("  ! no post text found. Run it again and paste the post's text into the second box."); return
+        log(f"Manual draft from an X post by {author}: {url}")
+        src = f"Post on X by {author}: {text}"
+        draft = write(item, src)
+        check = fact_check(src, draft)
+        return finish_manual(item, draft, check, url, seen, stats)
+    log(f"Manual draft from {item['source']}: {url}")
+    src = source_text(item)
+    if pasted: src = (src + " " + pasted).strip()
+    if len(src) < 250:
+        log("  ! couldn't read enough text from that page. Try the team's official announcement link instead."); return
+    draft = write(item, src)
+    check = fact_check(src, draft)
+    finish_manual(item, draft, check, url, seen, stats)
+
+
+def finish_manual(item, draft, check, url, seen, stats):
+    if check["verdict"] == "reject":
+        log(f"  rejected by fact-check: {check.get('notes')}"); stats["rejected_by_fact_check"] += 1; return
+    if check["verdict"] == "fix" and check.get("body"):
+        draft["body"] = check["body"]
+    full = " ".join([draft["title"], draft["description"], draft["body"]])
+    if BANNED.search(full):
+        log(f"  rejected: banned term '{BANNED.search(full).group(0)}'"); stats["blocked_for_betting_terms"] += 1; return
+    slug = unique_slug(draft.get("slug") or draft["title"])
+    open_pr(f"posts/{slug}.md", to_markdown(item, draft), draft["title"],
+            pr_body(item, {"type": "manual request", "score": "—"}, check))
+    seen["links"].append(url)
+    stats["drafts_sent"] += 1
+    stats["claims_removed"] += len(check.get("unsupported") or [])
+
+
 # ---------------- main ----------------
 def main():
     sources = json.loads((NR / "sources.json").read_text())["sources"]
     seen = load_seen()
     stats = load_stats(); stats["runs"] += 1
+    manual = os.environ.get("MANUAL_URL", "").strip()
+    if manual:
+        manual_draft(manual, sources, seen, stats)
+        save_seen(seen); save_stats(stats); return
     today = datetime.now(TZ).date().isoformat()
     left_today = MAX_DRAFTS_PER_DAY - seen["days"].get(today, 0)
 

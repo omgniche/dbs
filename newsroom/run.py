@@ -173,8 +173,14 @@ Decide which feed items are real, publishable news. Keep only these story types:
 Reject: promotions, giveaways, ticket or merch sales, community events, sponsor announcements,
 game previews and recaps with no news, podcasts, videos, opinion, and anything about betting.
 We cover all of the NFL, NBA, MLB and NHL nationally. Score 1-10 for how much fans across that
-league will care right now. 9-10 is a star traded or signed, a star ruled out long term, or a head
-coach or GM change. 7-8 is a notable starter move or injury. 5 or lower is depth moves and routine roster shuffles.
+league will care right now:
+- 9-10: a star traded, signed or released; a star out for the season or long term; a head coach or GM fired or hired.
+- 7-8: a star or well-known starter ruled out of a game or placed on injured reserve; a starter traded or signed;
+  a notable suspension; a starting QB change. A star missing even one game is a 7 or higher.
+- 5-6: role players and depth moves, practice squad and minor league moves, routine roster shuffles.
+- 1-4: recaps, previews, features, promotions.
+ROUNDUPS: if an item bundles several stories (an "injury roundup" or "notebook"), score it by the single
+most important story inside it, not as a roundup. Use "type" for that main story.
 Also check each item against the list of stories already on the site and against the other items:
 - duplicate_of: the slug of an existing post that covers the same story, otherwise null
 - same_story_as: the id of another item in this batch about the same story, otherwise null
@@ -229,6 +235,11 @@ Reply with only JSON:
 "league":"NFL, NBA, MLB or NHL","body":"the article in markdown"}}"""
 
 def write(item, src):
+    if not item.get("manual") and re.search(r"roundup|notebook|injury report", item.get("title", ""), re.I):
+        note_r = ("The source is a roundup of several stories. Write about the single most important story only, "
+                  "and mention one or two other items briefly at the end if they are significant.\n")
+    else:
+        note_r = ""
     note = ("This link was picked by the editor and may be a news outlet rather than the team. "
             "Attribute every fact to the source by name, e.g. 'according to ESPN'.\n") if item.get("manual") else ""
     if item.get("x_post"):
@@ -236,7 +247,7 @@ def write(item, src):
                 f"attribute it in the first sentence (e.g. 'according to ESPN's Adam Schefter'), never state it as "
                 f"confirmed, and say the team has not confirmed it unless the post says otherwise. Keep it short, "
                 f"80 to 200 words. The original post will be embedded below your article, so don't repeat it word for word.\n")
-    prompt = (f"Write a news post using ONLY this source.\n{note}"
+    prompt = (f"Write a news post using ONLY this source.\n{note_r}{note}"
               f"Source name: {item['source']}\nSource URL: {item['link']}\n"
               f"League: {item['league']}\nTeam: {item['team']}\n\nSOURCE TEXT:\n{src}")
     return as_json(ask(WRITER_MODEL, WRITE_SYSTEM, prompt, 2500))
@@ -360,10 +371,15 @@ def manual_draft(url, sources, seen, stats):
         check = fact_check(src, draft)
         return finish_manual(item, draft, check, url, seen, stats)
     log(f"Manual draft from {item['source']}: {url}")
-    src = source_text(item)
-    if pasted: src = (src + " " + pasted).strip()
-    if len(src) < 250:
-        log("  ! couldn't read enough text from that page. Try the team's official announcement link instead."); return
+    page = source_text(item)
+    log(f"  read {len(page)} characters from the page, {len(pasted)} characters of pasted text")
+    if pasted:
+        # When you paste text, trust it. Pages like ESPN often return only menus to the scanner.
+        src = pasted if len(page) < 1500 else (pasted + " " + page)
+    else:
+        src = page
+    if len(src) < 120:
+        log("  ! not enough text to write from. Paste a few sentences of the story into the second box and run again."); return
     draft = write(item, src)
     check = fact_check(src, draft)
     finish_manual(item, draft, check, url, seen, stats)

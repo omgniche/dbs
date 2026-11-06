@@ -278,12 +278,16 @@ def in_public(posts):
         readership = '<p class="note">Live readership numbers appear here once our analytics has a full day of data.</p>'
         updated = ""
 
+    try:
+        n_sources = len(json.loads((nr / "sources.json").read_text())["sources"])
+    except Exception:
+        n_sources = 0
     published = sum(1 for p in posts if p.get("author") == "DBS" and p["category"] == "News")
     reviewed = stats.get("headlines_reviewed", 0)
     share = published / reviewed * 100 if reviewed else None
     cut = "—" if share is None else f"{share:.2f}%" if share < 1 else f"{share:.1f}%"
     newsroom = (f'<div class="stats">'
-                f'<div><strong>128</strong><span>Official team and league sources watched</span></div>'
+                f'<div><strong>{n_sources}</strong><span>Official team and league sources watched</span></div>'
                 f'<div><strong>{fmt(reviewed)}</strong><span>Headlines reviewed</span></div>'
                 f'<div><strong>{fmt(published)}</strong><span>News stories published</span></div>'
                 f'<div><strong>{cut}</strong><span>Share that made the cut</span></div>'

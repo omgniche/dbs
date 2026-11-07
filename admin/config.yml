@@ -2,7 +2,7 @@
 # ONE THING TO CHANGE: replace YOUR-GITHUB-USERNAME below with your GitHub username.
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/dontbetsports
+  repo: omgniche/dontbetsports
   branch: main
   commit_messages:
     create: "Take: {{slug}}"

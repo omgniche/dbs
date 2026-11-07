@@ -16,7 +16,7 @@ SITE_URL   = "https://dontbetsports.com"   # no trailing slash
 SITE_NAME  = "DontBetSports"
 TAGLINE    = "Sports news and takes with no sportsbooks, no betting lines and no odds."
 X_HANDLE   = "@DontBetSports"
-CONTACT_EMAIL = "partners@dontbetsports.com"   # where sponsors reach you
+CONTACT_EMAIL = "partners@dontbetsports.com"   # shown on the privacy page; form messages go to your Netlify email
 # Paste the tracking snippet Plausible gives you between the triple quotes. Leave empty to turn off.
 ANALYTICS_SNIPPET = """"""
 CATEGORIES = ["News", "Takes", "Worth Watching"]
@@ -60,19 +60,32 @@ def markdown(src):
     return "\n".join(out)
 
 # ---------- load posts ----------
+def parse_front(block):
+    """Reads the --- header of a post, including headers written by the site editor at /admin/."""
+    meta, lines, i = {}, block.split("\n"), 0
+    while i < len(lines):
+        line = lines[i]; i += 1
+        if not line.strip() or line.startswith((" ", "\t")) or ":" not in line:
+            continue
+        k, v = line.split(":", 1); k, v = k.strip().lower(), v.strip()
+        if v in (">", ">-", ">+", "|", "|-", "|+"):            # multi-line value
+            parts = []
+            while i < len(lines) and (lines[i].startswith((" ", "\t")) or not lines[i].strip()):
+                parts.append(lines[i].strip()); i += 1
+            v = (" " if v.startswith(">") else "\n").join(p for p in parts if p)
+        elif len(v) > 1 and v[0] == v[-1] and v[0] in "\"'":
+            v = v[1:-1].replace("''", "'") if v[0] == "'" else v[1:-1].replace('\\"', '"')
+        meta[k] = v
+    return meta
+
 def load_posts():
     posts = []
     for f in sorted(POSTS_DIR.glob("*.md")):
-        raw = f.read_text(encoding="utf-8")
-        m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
+        raw = f.read_text(encoding="utf-8").replace("\r\n", "\n")
+        m = re.match(r"---\n(.*?)\n---\n?(.*)", raw, re.S)
         if not m:
             print(f"  skipped {f.name}: missing the --- header block"); continue
-        meta = {}
-        for line in m.group(1).splitlines():
-            if ":" in line:
-                k, v = line.split(":", 1); v = v.strip()
-                if len(v) > 1 and v[0] == v[-1] and v[0] in "\"'": v = v[1:-1]
-                meta[k.strip().lower()] = v
+        meta = parse_front(m.group(1))
         if meta.get("draft", "").lower() == "true":
             print(f"  draft, not published: {f.name}"); continue
         missing = [k for k in ("title", "description", "date", "author", "category") if not meta.get(k)]
@@ -82,8 +95,8 @@ def load_posts():
             print(f"  skipped {f.name}: category must be one of {CATEGORIES}"); continue
         p = dict(meta)
         p["slug"] = meta.get("slug") or slugify(f.stem)
-        p["date"] = date.fromisoformat(meta["date"])
-        p["updated"] = date.fromisoformat(meta["updated"]) if meta.get("updated") else p["date"]
+        p["date"] = date.fromisoformat(meta["date"][:10])
+        p["updated"] = date.fromisoformat(meta["updated"][:10]) if meta.get("updated") else p["date"]
         p["league"] = meta.get("league", "")
         p["featured"] = meta.get("featured", "").lower() == "true"
         p["html"] = markdown(m.group(2))
@@ -132,7 +145,7 @@ def page(title, description, path, body, active="", extra_head=""):
 <footer><div class="wrap">
   <div class="big">Just Sports… <em>never the line.</em></div>
   <p>{SITE_NAME} covers sports news and takes the way fans talk about them.</p>
-  <div class="links"><a href="/about/">About</a><a href="/in-public/">In Public</a><a href="mailto:{CONTACT_EMAIL}">Partner with us</a><a href="/feed.xml">RSS</a><a href="https://x.com/{X_HANDLE.lstrip('@')}">X</a></div>
+  <div class="links"><a href="/about/">About</a><a href="/in-public/">In Public</a><a href="/contact/">Partner with us</a><a href="/privacy/">Privacy &amp; disclosures</a><a href="/feed.xml">RSS</a><a href="https://x.com/{X_HANDLE.lstrip('@')}">X</a></div>
   <p>&copy; {date.today().year} {SITE_NAME}</p>
 </div></footer>
 </body>
@@ -229,7 +242,7 @@ def about():
 <p>Our news reports are drafted with AI tools working only from official sources like team and league announcements. Every story is fact-checked against its source and reviewed by a human editor before it publishes, and each one links to the source it came from.</p>
 <p>We support the site with regular advertising. We do not accept money from sportsbooks, betting apps or gambling companies, and we never will.</p>
 <p>We publish our real readership and newsroom numbers on our <a href="/in-public/">In Public</a> page.</p>
-<p>Have a tip or a correction? Reach us on X at {X_HANDLE}. For partnerships, email <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.</p>
+<p>Have a tip or a correction? Reach us on X at {X_HANDLE}. For partnerships, use our <a href="/contact/">contact form</a>.</p>
 </div></section></div>"""
     return page(f"About | {SITE_NAME}", f"What {SITE_NAME} is and why we never run gambling ads.", "/about/", body)
 
@@ -317,16 +330,96 @@ def in_public(posts):
   <h2 class="sub">How we count</h2>
   <div class="prose"><p>Readership comes from our own privacy-friendly analytics, which filters out known bots.
   A "reader" is a unique visitor and a "read" is a single page view. Newsroom numbers come from our
-  newsroom's own logs. If a number here ever looks wrong, tell us at <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a>.
+  newsroom's own logs. If a number here ever looks wrong, tell us through our <a href="/contact/">contact form</a>.
   {updated}{since}</p></div>
 
   <div class="partner"><div><strong>Reach fans who chose sports without betting.</strong>
   <span>Sponsorships, newsletter placements and brand partnerships. No gambling brands, ever.</span></div>
-  <a class="btn" href="mailto:{CONTACT_EMAIL}?subject=Partnering%20with%20DontBetSports">Partner with us</a></div>
+  <a class="btn" href="/contact/">Partner with us</a></div>
 </section></div>"""
     return page(f"In Public: our real numbers | {SITE_NAME}",
                 "DontBetSports' real readership and newsroom numbers, updated automatically. Zero sportsbook ads, ever.",
                 "/in-public/", body)
+
+
+def contact():
+    body = """<div class="wrap"><section><div class="head"><h1>Partner with us</h1></div>
+<div class="prose"><p>Sponsorships, newsletter placements, brand partnerships, news tips and corrections all come here.
+We work with brands of every kind except sportsbooks, betting apps and gambling companies.</p>
+<p>Want to see our audience first? Our <a href="/in-public/">In Public</a> page shows our real readership.</p></div>
+<form class="form" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact">
+  <p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+  <label>Your name<input name="name" required autocomplete="name"></label>
+  <label>Email<input type="email" name="email" required autocomplete="email"></label>
+  <label>Company or brand <span>(optional)</span><input name="company" autocomplete="organization"></label>
+  <label>What's this about?
+    <select name="reason" required>
+      <option value="">Choose one</option>
+      <option>Sponsorship or advertising</option>
+      <option>Newsletter placement</option>
+      <option>Brand partnership</option>
+      <option>News tip</option>
+      <option>Correction</option>
+      <option>Something else</option>
+    </select></label>
+  <label>Message<textarea name="message" rows="6" required></textarea></label>
+  <button class="btn" type="submit">Send</button>
+</form></section></div>"""
+    return page(f"Partner with us | {SITE_NAME}", f"Advertise, sponsor or partner with {SITE_NAME}. No gambling brands, ever.", "/contact/", body)
+
+def contact_thanks():
+    body = """<div class="wrap"><section><div class="head"><h1>Got it. Thanks!</h1></div>
+<div class="prose"><p>Your message is in. We'll get back to you soon.</p><p><a href="/">Back to the latest news</a></p></div></section></div>"""
+    return page(f"Thanks | {SITE_NAME}", "Message sent.", "/contact/thanks/", body)
+
+def privacy():
+    upd = "November 6, 2026"
+    body = f"""<div class="wrap"><section><div class="head"><h1>Privacy &amp; disclosures</h1></div><div class="prose">
+<p><em>Last updated {upd}</em></p>
+<p>This page explains what information {SITE_NAME} collects, how we use it, and how we make money.
+{SITE_NAME} is operated by Normie Labs LLC.</p>
+
+<h2>Affiliate disclosure</h2>
+<p>Some links on {SITE_NAME} may be affiliate links. If you click one and buy something, we may earn a commission
+at no extra cost to you. Affiliate relationships never decide what we cover or how we cover it.
+We never use affiliate links, ads or partnerships from sportsbooks, betting apps or gambling companies.</p>
+
+<h2>Advertising and sponsors</h2>
+<p>We may show ads or run sponsored placements to support the site. Sponsored content is always labeled.
+We do not accept advertising from gambling companies of any kind.</p>
+
+<h2>How our news is made</h2>
+<p>Our news reports are drafted with AI tools from official sources, fact-checked against those sources, and
+approved by a human editor before publishing. Every report links to its source.</p>
+
+<h2>What we collect</h2>
+<p><strong>Visit statistics.</strong> We use Plausible Analytics to count visits. It does not use cookies and does
+not collect personal information. We only see totals, such as how many people read a story.</p>
+<p><strong>Messages you send us.</strong> If you use our contact form, we receive the name, email and message you
+enter. We use it only to reply to you, and we don't sell it or share it with anyone else.</p>
+<p><strong>Newsletter.</strong> If you subscribe, we keep your email address to send the newsletter. Every email
+has an unsubscribe link.</p>
+
+<h2>Cookies and embedded content</h2>
+<p>{SITE_NAME} itself does not set tracking cookies. Some stories include embedded posts from X or other
+platforms. Those platforms may set their own cookies under their own privacy policies when the embed loads.</p>
+
+<h2>Services we use</h2>
+<p>Our site is hosted by Netlify, which processes basic technical data such as IP addresses to deliver pages
+and block abuse. Contact form messages are stored by Netlify. Analytics are provided by Plausible.</p>
+
+<h2>Children</h2>
+<p>{SITE_NAME} is not directed at children under 13, and we do not knowingly collect information from them.</p>
+
+<h2>Your choices</h2>
+<p>You can ask us to delete any message you've sent us, or ask what information we hold about you, through our
+<a href="/contact/">contact form</a> or at {CONTACT_EMAIL}.</p>
+
+<h2>Changes</h2>
+<p>If we change this policy, we'll update the date at the top of this page.</p>
+</div></section></div>"""
+    return page(f"Privacy & disclosures | {SITE_NAME}", f"How {SITE_NAME} handles your information, plus our affiliate and advertising disclosures.", "/privacy/", body)
 
 # ---------- feeds ----------
 def sitemap(urls):
@@ -354,6 +447,9 @@ def main():
     urls = [("/", posts[0]["updated"].isoformat()), ("/about/", today)]
     write("/", home(posts)); write("/about/", about()); write("/404.html", not_found(posts))
     write("/in-public/", in_public(posts)); urls.append(("/in-public/", today))
+    write("/contact/", contact()); write("/contact/thanks/", contact_thanks()); write("/privacy/", privacy())
+    urls += [("/contact/", today), ("/privacy/", today)]
+    if (ROOT / "admin").exists(): shutil.copytree(ROOT / "admin", OUT / "admin")
     blurbs = {"News":"What happened and why it matters", "Takes":"Opinions from our writers", "Worth Watching":"The best games each week, ranked without a spread"}
     for c in CATEGORIES:
         path, html_ = listing(c, [p for p in posts if p["category"] == c], posts, blurbs.get(c, "")); write(path, html_); urls.append((path, today))
@@ -362,7 +458,7 @@ def main():
     for p in posts:
         write(p["url"], article(p, posts)); urls.append((p["url"], p["updated"].isoformat()))
     write("/sitemap.xml", sitemap(urls)); write("/feed.xml", rss(posts))
-    write("/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
+    write("/robots.txt", f"User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: {SITE_URL}/sitemap.xml\n")
     print(f"Done: {len(posts)} posts, {len(urls)} pages in /public")
 
 if __name__ == "__main__":

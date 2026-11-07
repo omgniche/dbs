@@ -1,0 +1,61 @@
+# DontBetSports site editor (dontbetsports.com/admin/)
+# ONE THING TO CHANGE: replace YOUR-GITHUB-USERNAME below with your GitHub username.
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/dontbetsports
+  branch: main
+  commit_messages:
+    create: "Take: {{slug}}"
+    update: "Edit: {{slug}}"
+    delete: "Delete: {{slug}}"
+
+site_url: https://dontbetsports.com
+display_url: https://dontbetsports.com
+media_folder: static/uploads
+public_folder: /static/uploads
+
+collections:
+  - name: takes
+    label: Takes
+    label_singular: Take
+    description: Your own articles and opinion pieces.
+    folder: posts
+    filter: { field: category, value: Takes }
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} ({{date}})"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Headline, name: title, widget: string }
+      - { label: "Short summary (shows in Google)", name: description, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Author, name: author, widget: string, default: "Jonny" }
+      - { label: Category, name: category, widget: hidden, default: Takes }
+      - { label: League, name: league, widget: select, required: false, options: ["", NFL, NBA, MLB, NHL] }
+      - { label: "Feature on homepage", name: featured, widget: boolean, default: false, required: false }
+      - label: Article
+        name: body
+        widget: markdown
+        buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list]
+        editor_components: []
+
+  - name: news
+    label: News (edit only)
+    label_singular: News story
+    description: Stories from the newsroom. Edit or fix them here. New news comes through GitHub.
+    folder: posts
+    filter: { field: category, value: News }
+    create: false
+    delete: true
+    summary: "{{title}} ({{date}})"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Headline, name: title, widget: string }
+      - { label: "Short summary", name: description, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated date (optional)", name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: Author, name: author, widget: string }
+      - { label: Category, name: category, widget: hidden, default: News }
+      - { label: League, name: league, widget: select, required: false, options: ["", NFL, NBA, MLB, NHL] }
+      - { label: "Feature on homepage", name: featured, widget: boolean, default: false, required: false }
+      - { label: Article, name: body, widget: markdown, buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list], editor_components: [] }

@@ -14,10 +14,11 @@ Do Parts 1 to 4 once. After that, your only daily job is Part 5.
 | `static/` | Logo and design | No |
 | `newsroom/run.py` | The AI newsroom | Settings at the top only |
 | `newsroom/style.md` | Your writing voice and rules for the AI | Yes, anytime |
-| `newsroom/sources.json` | The 128 official team and league pages it watches | Only to fix broken sources |
+| `newsroom/sources.json` | The 98 official team and league pages it watches | Only to fix broken sources |
 | `newsroom/readership.py` | Pulls your real reader numbers each day | No |
 | `.github/workflows/` | The timers that run everything automatically | No |
 | `netlify.toml` | Tells Netlify how to build the site | No |
+| `admin/` | Your writing editor at dontbetsports.com/admin/ | Only your username in `config.yml` |
 
 To edit any file later: open it on github.com, tap the pencil icon, make the change, then tap **Commit changes**.
 
@@ -27,9 +28,9 @@ To edit any file later: open it on github.com, tap the pencil icon, make the cha
 
 1. **Make a GitHub account** at github.com.
 2. **Create a repository.** Tap **New repository**, name it `dontbetsports`, choose **Public** (this keeps the automation free), and create it.
-3. **Upload the files.** Unzip this folder on a computer. In your new repo, choose **Add file → Upload files**, then drag in everything inside the folder.
-   Important: include the hidden `.github` folder. On a Mac, press Cmd + Shift + . in Finder to show hidden folders. On Windows, turn on View → Hidden items.
-   Tap **Commit changes**.
+3. **Upload the files.** Unzip this folder on a computer. In your new repo, tap **uploading an existing file** (or **Add file → Upload files**), drag in everything you can see inside the folder, and tap **Commit changes**.
+   Your computer hides one folder, `.github`, because its name starts with a dot. Don't worry about it. Step 4 creates it directly on GitHub instead.
+   **Add the two timer files.** In your repo, tap **Add file → Create new file**. In the name box, type exactly `.github/workflows/newsroom.yml` (typing the slashes creates the folders). Open the `newsroom.yml` file Claude gave you, copy all its text, paste it into the big box, and tap **Commit changes**. Repeat with the name `.github/workflows/in-public.yml` and the text from `in-public.yml`.
 4. **Connect Netlify.** At netlify.com, choose **Add new site → Import an existing project → GitHub**, pick `dontbetsports`, and deploy. The settings fill in automatically.
 5. **Connect your domain.** In Netlify, open **Domain management** and add `dontbetsports.com`. Follow its steps to point your domain at Netlify.
 
@@ -102,10 +103,56 @@ Up to 15 drafts a day, and usually fewer.
    - `description:` one or two sentences, shown in Google results
    - `date:` like 2026-11-06
    - `author:` your name
-   - `category:` News or Takes
+   - `category:` News or Takes (for Takes, the editor in Part 8 is easier)
    - `league:` NFL, NBA, MLB or NHL (optional)
    - `featured: true` puts it in the big spot on the homepage (optional)
 4. Delete the `draft: true` line, write your post below the `---`, and commit. It goes live automatically.
+
+---
+
+## Part 7. Turn on the contact form (5 minutes)
+
+The "Partner with us" links go to `dontbetsports.com/contact/`, a form that Netlify collects for you.
+
+1. In Netlify, open your site and go to **Forms**.
+2. If you see **Enable form detection**, tap it.
+3. Redeploy once so Netlify finds the form: **Deploys → Trigger deploy → Deploy site**.
+4. Back in **Forms**, you should now see a form called **contact**. Messages people send show up there.
+5. To get messages by email: **Site configuration → Notifications → Emails and webhooks → Form submission notifications → Add notification → Email notification**, choose the **contact** form, and enter your email.
+
+Send yourself a test message from the site to make sure it arrives.
+
+---
+
+## Part 8. Turn on the site editor for your own Takes (15 minutes)
+
+You can write your own articles in a simple editor at `dontbetsports.com/admin/`, with no GitHub screens.
+You log in with your GitHub account once, then just write and tap Publish.
+
+**Step 1. Tell the editor which repo to use.** On GitHub, open the `admin` folder, then `config.yml`, and tap the pencil.
+Find `YOUR-GITHUB-USERNAME/dontbetsports` and replace `YOUR-GITHUB-USERNAME` with your actual GitHub username. Commit.
+
+**Step 2. Create a GitHub login app.**
+1. On github.com, tap your profile picture → **Settings** → scroll down to **Developer settings** → **OAuth Apps** → **New OAuth App**.
+2. Fill in:
+   - Application name: `DontBetSports Editor`
+   - Homepage URL: `https://dontbetsports.com`
+   - Authorization callback URL: `https://api.netlify.com/auth/done`
+3. Tap **Register application**.
+4. Copy the **Client ID**. Then tap **Generate a new client secret** and copy that too. You only see the secret once.
+
+**Step 3. Connect it in Netlify.**
+1. In Netlify, open your site → **Site configuration** → **Access & security** → **OAuth**.
+2. Under **Authentication providers**, tap **Install provider**, choose **GitHub**, paste the Client ID and Client secret, and save.
+
+**Step 4. Write your first Take.**
+1. Go to `dontbetsports.com/admin/` and tap **Login with GitHub**. Approve it.
+2. Tap **Takes → New Take**.
+3. Fill in the headline, short summary, date and league, write your article, then tap **Publish → Publish now**.
+4. Netlify rebuilds the site and your Take is live in about a minute.
+
+The editor also has **News (edit only)**, where you can fix typos in newsroom stories without touching GitHub.
+It works on a phone, but writing longer pieces is easier on a computer.
 
 ---
 

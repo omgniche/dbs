@@ -3659,10 +3659,13 @@
   "https://www.seahawks.com/news/velus-jones-jr-released-rb-subsequently-signed-to-practice-squad",
   "https://www.nhl.com/flames/news/projected-lineup-flames-vs-ducks-06-11-26",
   "https://www.nhl.com/blackhawks/news/preview-blackhawks-visit-hurricanes-in-road-trip-finale",
-  "https://www.nhl.com/kraken/news/new-york-rangers-vs-seattle-kraken-game-preview-projected-lines-110726"
+  "https://www.nhl.com/kraken/news/new-york-rangers-vs-seattle-kraken-game-preview-projected-lines-110726",
+  "https://www.nfl.com/news/struggling-players-at-midseason-is-justin-herbert-broken-beyond-repair-can-dk-metcalf-get-right",
+  "https://www.nba.com/news/kristaps-porzingis-stepping-away-from-basketball",
+  "https://www.mlb.com/news/guardians-claim-jose-tena-waivers-nationals"
  ],
  "days": {
-  "2026-11-06": 8
+  "2026-11-06": 9
  },
  "baselined": [
   "https://www.nfl.com/news/",

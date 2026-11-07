@@ -3649,10 +3649,20 @@
   "https://www.nhl.com/bruins/news/in-the-system-letourneau-has-three-point-weekend-for-boston-college",
   "https://www.nhl.com/devils/news/preview-2026020270",
   "https://www.nhl.com/capitals/news/caps-close-homestand-vs-cats",
-  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-close-homestand-vs-cats"
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-close-homestand-vs-cats",
+  "https://www.nfl.com/news/wr-brandon-aiyuk-meets-with-49ers-back-to-100-percent-as-he-seeks-reinstatement",
+  "https://www.raiders.com/news/raiders-regresan-a-la-bahia-para-duelo-ante-49ers",
+  "https://www.raiders.com/news/what-the-49ers-are-saying-about-the-raiders-ahead-of-the-week-9-matchup",
+  "https://www.therams.com/news/while-joshua-karty-is-now-on-active-roster-to-be-determined-if-he-ll-be-active-on-gameday-in-week-9-and-if-rams-will-use-two-kickers-again",
+  "https://www.therams.com/news/11th-annual-taste-of-the-rams-event-raises-money-to-support-hunger-relief-across-los-angeles-county",
+  "https://www.49ers.com/news/5-things-to-know-49ers-week-9-matchup-vs-raiders-salute-to-service",
+  "https://www.seahawks.com/news/velus-jones-jr-released-rb-subsequently-signed-to-practice-squad",
+  "https://www.nhl.com/flames/news/projected-lineup-flames-vs-ducks-06-11-26",
+  "https://www.nhl.com/blackhawks/news/preview-blackhawks-visit-hurricanes-in-road-trip-finale",
+  "https://www.nhl.com/kraken/news/new-york-rangers-vs-seattle-kraken-game-preview-projected-lines-110726"
  ],
  "days": {
-  "2026-11-06": 7
+  "2026-11-06": 8
  },
  "baselined": [
   "https://www.nfl.com/news/",

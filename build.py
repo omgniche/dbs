@@ -18,7 +18,14 @@ TAGLINE    = "Sports news and takes with no sportsbooks, no betting lines and no
 X_HANDLE   = "@DontBetSports"
 CONTACT_EMAIL = "partners@dontbetsports.com"   # shown on the privacy page; form messages go to your Netlify email
 # Paste the tracking snippet Plausible gives you between the triple quotes. Leave empty to turn off.
-ANALYTICS_SNIPPET = """"""
+ANALYTICS_SNIPPET = """<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5DGTQ4T');</script>
+<!-- End Google Tag Manager -->"""
+GTM_ID = "GTM-T5DGTQ4T"
 CATEGORIES = ["News", "Takes", "Worth Watching"]
 LEAGUES    = ["NFL", "NBA", "MLB", "NHL"]
 # =============================================================
@@ -136,6 +143,7 @@ def page(title, description, path, body, active="", extra_head=""):
 {ANALYTICS_SNIPPET}
 </head>
 <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="promise">No sportsbooks. No betting lines. No odds. Ever.</div>
 <header><div class="wrap">
   <a class="brand" href="/" aria-label="{SITE_NAME} home"><img src="/static/logo.png" alt="Dont" width="114" height="62"><span>Bet Sports</span></a>
@@ -328,7 +336,7 @@ def in_public(posts):
   {newsroom}
 
   <h2 class="sub">How we count</h2>
-  <div class="prose"><p>Readership comes from our own privacy-friendly analytics, which filters out known bots.
+  <div class="prose"><p>Readership comes from our site analytics, which filters out known bots.
   A "reader" is a unique visitor and a "read" is a single page view. Newsroom numbers come from our
   newsroom's own logs. If a number here ever looks wrong, tell us through our <a href="/contact/">contact form</a>.
   {updated}{since}</p></div>
@@ -374,7 +382,7 @@ def contact_thanks():
     return page(f"Thanks | {SITE_NAME}", "Message sent.", "/contact/thanks/", body)
 
 def privacy():
-    upd = "November 6, 2026"
+    upd = "November 7, 2026"
     body = f"""<div class="wrap"><section><div class="head"><h1>Privacy &amp; disclosures</h1></div><div class="prose">
 <p><em>Last updated {upd}</em></p>
 <p>This page explains what information {SITE_NAME} collects, how we use it, and how we make money.
@@ -394,20 +402,24 @@ We do not accept advertising from gambling companies of any kind.</p>
 approved by a human editor before publishing. Every report links to its source.</p>
 
 <h2>What we collect</h2>
-<p><strong>Visit statistics.</strong> We use Plausible Analytics to count visits. It does not use cookies and does
-not collect personal information. We only see totals, such as how many people read a story.</p>
+<p><strong>Visit statistics.</strong> We use Google Analytics, loaded through Google Tag Manager, to understand
+how many people visit and which stories they read. It uses cookies and collects information such as pages viewed,
+how you arrived at the site, your device and browser, and your approximate location. Google processes this data
+under its own privacy policy. You can opt out with Google's Analytics opt-out browser add-on or by blocking cookies
+in your browser.</p>
 <p><strong>Messages you send us.</strong> If you use our contact form, we receive the name, email and message you
 enter. We use it only to reply to you, and we don't sell it or share it with anyone else.</p>
 <p><strong>Newsletter.</strong> If you subscribe, we keep your email address to send the newsletter. Every email
 has an unsubscribe link.</p>
 
 <h2>Cookies and embedded content</h2>
-<p>{SITE_NAME} itself does not set tracking cookies. Some stories include embedded posts from X or other
-platforms. Those platforms may set their own cookies under their own privacy policies when the embed loads.</p>
+<p>We use cookies for analytics, as described above. We do not use cookies for gambling or betting promotions, and we
+do not sell your information. Some stories include embedded posts from X or other platforms, which may set their own
+cookies under their own privacy policies when the embed loads.</p>
 
 <h2>Services we use</h2>
 <p>Our site is hosted by Netlify, which processes basic technical data such as IP addresses to deliver pages
-and block abuse. Contact form messages are stored by Netlify. Analytics are provided by Plausible.</p>
+and block abuse. Contact form messages are stored by Netlify. Analytics are provided by Google.</p>
 
 <h2>Children</h2>
 <p>{SITE_NAME} is not directed at children under 13, and we do not knowingly collect information from them.</p>

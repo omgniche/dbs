@@ -3845,11 +3845,23 @@
   "https://www.nhl.com/devils/news/preview-2026020279",
   "https://www.nhl.com/islanders/news/takeaways-islanders-devils-nov-7-2026",
   "https://www.nhl.com/lightning/news/nuts-bolts-wrapping-up-a-western-conference-back-to-back-nov-8-2026",
-  "https://www.nhl.com/utah/news/utah-falls-to-ottawa-in-close-battle-game-story-11-7-26"
+  "https://www.nhl.com/utah/news/utah-falls-to-ottawa-in-close-battle-game-story-11-7-26",
+  "https://www.nhl.com/news/detroit-red-wings-colorado-avalanche-game-recap-november-7-2026",
+  "https://www.nhl.com/news/pittsburgh-penguins-los-angeles-kings-game-recap-november-7-2026",
+  "https://www.nhl.com/news/kraken-kaapo-kakko-excited-to-play-global-series-in-finland-vs-hurricanes",
+  "https://www.nhl.com/news/oilers-ryan-nugent-hopkins-injured-after-being-struck-in-head-by-puck",
+  "https://www.mlb.com/news/blue-jays-prospect-aaron-parker-wins-2026-arizona-fall-league-home-run-derby",
+  "https://www.nhl.com/blackhawks/news/recap-blackhawks-drop-road-trip-finale-to-hurricanes",
+  "https://www.nhl.com/avalanche/news/game-recap-11-07-26",
+  "https://www.nhl.com/penguins/news/musings-penguins-get-feel-good-win-in-la",
+  "https://www.nhl.com/sharks/news/san-jose-sharks-dallas-stars-game-recap-november-7-2026-x5425",
+  "https://www.nhl.com/lightning/news/mishkins-extra-shift-tampa-bay-lightning-4-minnesota-wild-3-ot-nov-7-2026",
+  "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkins-extra-shift-tampa-bay-lightning-4-minnesota-wild-3-ot-nov-7-2026"
  ],
  "days": {
   "2026-11-06": 9,
-  "2026-11-07": 1
+  "2026-11-07": 1,
+  "2026-11-08": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

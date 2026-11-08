@@ -3920,12 +3920,19 @@
   "https://www.commanders.com/news/inactives-commanders-vs-rams-week-9-treylon-burks",
   "https://www.nhl.com/bruins/news/need-to-know-bruins-vs-panthers-x7617",
   "https://www.nhl.com/islanders/news/the-skinny-devils-5-islanders-4-ot-nov-8-2026",
-  "https://www.nhl.com/senators/news/johansson-returns-to-belleville"
+  "https://www.nhl.com/senators/news/johansson-returns-to-belleville",
+  "https://www.mlb.com/news/2026-bbwaa-awards-finalists",
+  "https://www.atlantafalcons.com/news/game-breakdown-what-happened-in-falcons-vs-bengals",
+  "https://www.bengals.com/news/bengals-falcons-recap-postgame-notes-quotes-stats-week-9-2026",
+  "https://www.philadelphiaeagles.com/news/giants-vs-eagles-game-recap-2026-nfl-week-9-kelly-green-joe-milton-saquon-barkley-jj-mccarthy-malik-nabers",
+  "https://www.commanders.com/news/commanders-vs-rams-how-to-watch-listen-stream",
+  "https://www.nhl.com/flames/news/flames-offering-support-to-injured-defenceman-bahl",
+  "https://www.nhl.com/redwings/news/red-wings-assign-three-to-grand-rapids"
  ],
  "days": {
   "2026-11-06": 9,
   "2026-11-07": 1,
-  "2026-11-08": 1
+  "2026-11-08": 2
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -4103,12 +4103,23 @@
   "https://www.buccaneers.com/news/bucs-lose-chicago-bears-week-9-2026-score-27-24",
   "https://www.nhl.com/ducks/news/ducks-continue-to-pile-up-the-superlatives",
   "https://www.nhl.com/devils/news/devils-manage-hellebuyck-s-workload-with-divisional-games-ahead-blog-11-8-26",
-  "https://www.nhl.com/penguins/news/musings-special-teams-the-difference-in-anaheim"
+  "https://www.nhl.com/penguins/news/musings-special-teams-the-difference-in-anaheim",
+  "https://www.nba.com/news/warriors-will-richard-sidelined-torn-ligament-left-thumb",
+  "https://www.mlb.com/news/jack-and-dan-o-dowd-special-moments-at-afl-fall-stars-game",
+  "https://www.nhl.com/news/winnipeg-jets-feeling-good-after-a-tough-stretch-with-new-jersey-devils-due",
+  "https://www.nhl.com/news/nhl-nationally-televised-games-for-week-of-november-9-2026",
+  "https://www.nhl.com/news/new-jersey-devils-hellebuyck-will-not-start-against-winnipeg-jets",
+  "https://www.chicagobears.com/news/bears-hold-off-late-rally-to-edge-buccaneers-extend-winning-streak-to-four-game-recap",
+  "https://www.buccaneers.com/news/bucs-bears-week-9-recap-postgame-report-2026",
+  "https://www.buccaneers.com/news/bucs-bears-5-notes-nfl-week-9-2026",
+  "https://www.nhl.com/ducks/news/pittsburgh-penguins-anaheim-ducks-game-recap-november-8-2026-x3132",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-sharks-nov-9-2026"
  ],
  "days": {
   "2026-11-06": 9,
   "2026-11-07": 1,
-  "2026-11-08": 5
+  "2026-11-08": 5,
+  "2026-11-09": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -4559,14 +4559,25 @@
   "https://www.seahawks.com/news/seahawks-sign-dt-cole-brevard-to-practice-squad",
   "https://www.mlb.com/news/pedro-guerrero-hired-as-dodgers-hitting-coach",
   "https://www.nhl.com/islanders/news/isles-day-to-day-practice-updates-nov-10-2026",
-  "https://www.nhl.com/lightning/news/nuts-bolts-road-trip-continues-in-buffalo-nov-11-2026"
+  "https://www.nhl.com/lightning/news/nuts-bolts-road-trip-continues-in-buffalo-nov-11-2026",
+  "https://www.nfl.com/news/agent-brandon-aiyuk-plans-to-play-this-season-likely-with-somebody-that-knows-him",
+  "https://www.azcardinals.com/news/depth-of-field-week-9-at-seattle-seahawks",
+  "https://www.raiders.com/news/raiders-acquire-2027-third-round-pick-nfl-2026",
+  "https://www.raiders.com/news/john-spytek-klint-kubiak-press-conference-2026-nfl-trade-deadline",
+  "https://www.chargers.com/news/daiyan-henley-contract-broncos-trade-deadline",
+  "https://www.therams.com/news/first-look-rams-take-on-cardinals-in-arizona-in-week-10-riding-three-game-win-streak",
+  "https://www.philadelphiaeagles.com/news/eagles-waive-rb-jaydon-blue-week-10-2026",
+  "https://www.49ers.com/news/los-49ers-colocan-a-dl-gracen-halton-en-reserva-de-lesionados",
+  "https://www.seahawks.com/news/how-to-watch-listen-and-follow-seahawks-at-raiders-in-week-10-on-sunday-november-15",
+  "https://www.nhl.com/redwings/news/preview-red-wings-push-forward-on-four-game-road-trip-battle-the-blues-on-tuesday",
+  "https://www.nhl.com/wild/news/projected-lineup-wild-at-canadiens-111026"
  ],
  "days": {
   "2026-11-06": 9,
   "2026-11-07": 1,
   "2026-11-08": 5,
   "2026-11-09": 9,
-  "2026-11-10": 6
+  "2026-11-10": 7
  },
  "baselined": [
   "https://www.nfl.com/news/",

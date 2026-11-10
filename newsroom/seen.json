@@ -4372,13 +4372,19 @@
   "https://www.chicagobears.com/news/5-things-we-learned-from-bears-coach-ben-johnson-in-week-9-win",
   "https://www.vikings.com/news/myles-price-living-dream-same-place-as-adrian-peterson",
   "https://www.49ers.com/news/jaden-dugger-s-impactful-play-shows-49ers-rookie-class-is-delivering",
-  "https://www.nhl.com/rangers/news/rangers-at-oilers-postgame-notes-11-09-26"
+  "https://www.nhl.com/rangers/news/rangers-at-oilers-postgame-notes-11-09-26",
+  "https://www.nfl.com/news/2027-nfl-draft-order-biggest-needs-for-every-team",
+  "https://www.nhl.com/news/philadelphia-flyers-vancouver-canucks-game-recap-november-9-2026",
+  "https://www.buffalobills.com/news/bills-23-vikings-6-final-score-recap-highlights",
+  "https://www.vikings.com/news/bills-game-observations-offense-misfires-turnovers-add-up",
+  "https://www.nhl.com/flyers/news/postgame-rav4-flyers-hold-off-vancouver"
  ],
  "days": {
   "2026-11-06": 9,
   "2026-11-07": 1,
   "2026-11-08": 5,
-  "2026-11-09": 9
+  "2026-11-09": 9,
+  "2026-11-10": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

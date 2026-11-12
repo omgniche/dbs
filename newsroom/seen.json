@@ -5137,7 +5137,21 @@
   "https://www.nhl.com/senators/news/hockey-fights-cancer-night-hits-close-to-home-for-zetterlund",
   "https://www.nhl.com/kraken/news/final-buzzer-carolina-hurricanes-seattle-kraken-game-recap-111226",
   "https://www.nhl.com/kraken/news/postgame-instant-analysis-carolina-hurricanes-seattle-kraken-111226",
-  "https://www.nhl.com/jets/news/making-memories-with-their-mentors"
+  "https://www.nhl.com/jets/news/making-memories-with-their-mentors",
+  "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-thursday-nov-12",
+  "https://www.nba.com/news/lebron-james-ruled-out-vs-raptors",
+  "https://www.nhl.com/news/minnesota-wild-gm-bill-guerin-talks-on-yurov-for-red-wings-larkin-trade-report",
+  "https://www.nhl.com/news/topic/short-shifts/carolina-hurricanes-celebrate-taylor-hall-1000th-nhl-game",
+  "https://www.detroitlions.com/news/lions-vs-patriots-practice-report-nov-12-goff-branch-reed-stbrown-joseph",
+  "https://www.colts.com/news/practice-notebook-s-aj-haulcy-returns-to-practice",
+  "https://www.neworleanssaints.com/news/injury-report-carolina-panthers-vs-new-orleans-saints-2026-nfl-week-10-thursday",
+  "https://www.newyorkjets.com/news/jets-injury-report-week-10-vs-bills-thursday-11-12-2026",
+  "https://www.tennesseetitans.com/news/quick-hits-on-the-titans-from-thursday-of-jaguars-week-x3433",
+  "https://www.mlb.com/news/antonio-gomez-on-transition-from-catching-to-pitching",
+  "https://www.nhl.com/hurricanes/news/recap-aho-valimaki-help-canes-down-kraken-in-finland",
+  "https://www.nhl.com/blackhawks/news/release-blackhawks-activate-patrick-kane-from-injured-reserve",
+  "https://www.nhl.com/devils/news/important-notice-on-ticket-transfers-for-tonight-s-game-11-12-26",
+  "https://www.nhl.com/canucks/news/daniel-and-henrik-sedin-discuss-canucks-progress-at-quarter-season-mark"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5146,7 +5160,7 @@
   "2026-11-09": 9,
   "2026-11-10": 11,
   "2026-11-11": 8,
-  "2026-11-12": 2
+  "2026-11-12": 4
  },
  "baselined": [
   "https://www.nfl.com/news/",

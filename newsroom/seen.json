@@ -4981,7 +4981,19 @@
   "https://www.nhl.com/lightning/news/nuts-bolts-back-at-it-in-columbus",
   "https://www.nhl.com/lightning/news/the-backcheck-john-carlson-s-career-night-nikita-kucherov-hat-trick-gives-tampa-bay-lightning-blowout-win-in-buffalo",
   "https://www.nhl.com/lightning/news/mishkin-s-extra-shift-tampa-bay-lightning-8-buffalo-sabres-3",
-  "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkin-s-extra-shift-tampa-bay-lightning-8-buffalo-sabres-3"
+  "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkin-s-extra-shift-tampa-bay-lightning-8-buffalo-sabres-3",
+  "https://www.nba.com/news/bulls-caleb-wilson-hand-injury",
+  "https://www.nba.com/news/lakers-austin-reaves-heel-injury",
+  "https://www.mlb.com/news/top-players-honored-at-2026-mlb-awards",
+  "https://www.mlb.com/news/the-case-for-each-2026-mlb-mvp-finalist",
+  "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026",
+  "https://www.nhl.com/news/topic/short-shifts/goal-of-season-nashville-predators-nils-hoglander",
+  "https://www.denverbroncos.com/news/statement-from-the-broncos",
+  "https://www.nhl.com/hurricanes/news/preview-november-12-at-seattle",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-at-kings-nov-12-2026",
+  "https://www.nhl.com/flyers/news/postgame-rav4-point-taken-in-edmonton",
+  "https://www.nhl.com/blues/news/preview-blues-at-mammoth-11122026",
+  "https://www.nhl.com/jets/news/gameday-jets-at-stars-x7516"
  ],
  "days": {
   "2026-11-06": 9,
@@ -4989,7 +5001,8 @@
   "2026-11-08": 5,
   "2026-11-09": 9,
   "2026-11-10": 11,
-  "2026-11-11": 8
+  "2026-11-11": 8,
+  "2026-11-12": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

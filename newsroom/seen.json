@@ -4936,7 +4936,18 @@
   "https://www.nhl.com/news/topic/short-shifts/save-of-season-new-york-rangers-joonas-korpisalo",
   "https://www.dallascowboys.com/news/mick-shots-the-big-q-deserves-pat-on-the-back",
   "https://www.nhl.com/ducks/news/ducks-look-to-host-18th-annual-reading-is-the-goal-day-at-helen-estock-elementary-school-on-friday-nov-13",
-  "https://www.nhl.com/oilers/news/live-updates-oilers-vs-flyers-11-11-26"
+  "https://www.nhl.com/oilers/news/live-updates-oilers-vs-flyers-11-11-26",
+  "https://www.nba.com/news/stephen-curry-out-abdominal-soreness",
+  "https://www.mlb.com/news/colton-cowser-capital-one-premier-play-of-the-year-2026",
+  "https://www.mlb.com/news/yordan-alvarez-wins-2026-outstanding-designated-hitter-award",
+  "https://www.mlb.com/news/2026-mlb-comeback-player-of-the-year-winners",
+  "https://www.mlb.com/news/erik-neander-executive-of-the-year",
+  "https://www.nhl.com/news/new-york-rangers-calgary-flames-game-recap-november-11-2026",
+  "https://www.nhl.com/news/tampa-bay-lightning-buffalo-sabres-game-recap-november-11-2026",
+  "https://www.bengals.com/news/quick-hits-joe-burrow-eyes-drew-brees-record-of-74-4-that-would-be-a-fun-one-to-break",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-tampa-bay-lightning-recap-highlights-at-the-horn",
+  "https://www.nhl.com/flames/news/flames-fall-to-rangers-11-11-26",
+  "https://www.nhl.com/utah/news/utah-vs-vegas-live-blog-11-11-26"
  ],
  "days": {
   "2026-11-06": 9,
@@ -4944,7 +4955,7 @@
   "2026-11-08": 5,
   "2026-11-09": 9,
   "2026-11-10": 11,
-  "2026-11-11": 7
+  "2026-11-11": 8
  },
  "baselined": [
   "https://www.nfl.com/news/",

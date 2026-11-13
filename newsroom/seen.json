@@ -5252,7 +5252,17 @@
   "https://www.nhl.com/lightning/news/the-backcheck-big-games-from-brandon-hagel-jake-guentzel-lead-team-effort-as-tampa-bay-lightning-beat-columbus-blue-jackets",
   "https://www.nhl.com/capitals/news/devils-drop-caps-5-2",
   "https://www.nhl.com/capitals/news/topic/dump-n-chase/devils-drop-caps-5-2",
-  "https://www.nhl.com/jets/news/scheifele-joins-hawerchuk-as-jets-roll-past-dallas"
+  "https://www.nhl.com/jets/news/scheifele-joins-hawerchuk-as-jets-roll-past-dallas",
+  "https://www.nhl.com/news/st-louis-blues-utah-mammoth-game-recap-november-12-2026",
+  "https://www.nhl.com/news/2027-nhl-draft-diary-dima-zhilkin-november-13-2026",
+  "https://www.nhl.com/news/unmasked-goalies-relating-to-devin-cooley-flow-state-unconscious-brain",
+  "https://www.nhl.com/news/european-notebook-nhl-prospects-shine-at-u20-five-nations-tournament",
+  "https://www.commanders.com/news/instant-analysis-commanders-giants-week-10",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-chicago-blackhawks-recap-highlights-lyon",
+  "https://www.nhl.com/sabres/news/topic/game-coverage/buffalo-sabres-chicago-blackhawks-recap-highlights-lyon",
+  "https://www.nhl.com/blackhawks/news/buffalo-sabres-chicago-blackhawks-game-recap-november-12-2026-x7795",
+  "https://www.nhl.com/blackhawks/news/recap-donato-lifts-blackhawks-past-sabres-in-overtime",
+  "https://www.nhl.com/bluejackets/news/tampa-bay-lightning-columbus-blue-jackets-game-recap-november-12-2026-x3918"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5261,7 +5271,8 @@
   "2026-11-09": 9,
   "2026-11-10": 11,
   "2026-11-11": 8,
-  "2026-11-12": 6
+  "2026-11-12": 6,
+  "2026-11-13": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

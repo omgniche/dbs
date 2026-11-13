@@ -5262,7 +5262,11 @@
   "https://www.nhl.com/sabres/news/topic/game-coverage/buffalo-sabres-chicago-blackhawks-recap-highlights-lyon",
   "https://www.nhl.com/blackhawks/news/buffalo-sabres-chicago-blackhawks-game-recap-november-12-2026-x7795",
   "https://www.nhl.com/blackhawks/news/recap-donato-lifts-blackhawks-past-sabres-in-overtime",
-  "https://www.nhl.com/bluejackets/news/tampa-bay-lightning-columbus-blue-jackets-game-recap-november-12-2026-x3918"
+  "https://www.nhl.com/bluejackets/news/tampa-bay-lightning-columbus-blue-jackets-game-recap-november-12-2026-x3918",
+  "https://www.nfl.com/news/broncos-backed-out-of-trade-for-chargers-henley-over-surprising-issue-in-physical",
+  "https://www.nhl.com/news/new-york-islanders-los-angeles-kings-game-recap-november-12-2026",
+  "https://www.nhl.com/redwings/news/recap-red-wings-can-t-regain-momentum-in-5-4-loss-to-panthers",
+  "https://www.nhl.com/blues/news/st-louis-blues-utah-mammoth-game-recap-november-12-2026-x1820"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5272,7 +5276,7 @@
   "2026-11-10": 11,
   "2026-11-11": 8,
   "2026-11-12": 6,
-  "2026-11-13": 0
+  "2026-11-13": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

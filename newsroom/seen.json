@@ -5214,7 +5214,12 @@
   "https://www.seahawks.com/news/seahawks-prepare-for-raiders-opponent-with-familiar-play-caller-debuting-qb-fernando-mendoza",
   "https://www.commanders.com/news/commanders-vs-giants-how-to-watch-listen-stream-week-10-2026",
   "https://www.commanders.com/news/gameday-blog-commanders-vs-giants-week-10",
-  "https://www.mlb.com/news/giants-prospect-miguel-mendez-posts-hitless-outing-in-fall-league-playoffs"
+  "https://www.mlb.com/news/giants-prospect-miguel-mendez-posts-hitless-outing-in-fall-league-playoffs",
+  "https://www.mlb.com/news/major-award-winners-for-every-mlb-team",
+  "https://www.mlb.com/news/rule-5-draft-prospects-protected-on-40-man-roster-2026",
+  "https://www.nhl.com/news/nathan-mackinnon-cale-makar-exit-game-for-colorado-avalanche",
+  "https://www.nhl.com/kings/news/la-kings-activate-forward-kevin-fiala-from-injured-reserve",
+  "https://www.nhl.com/utah/news/st-louis-vs-utah-live-blog-11-12-26"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5223,7 +5228,7 @@
   "2026-11-09": 9,
   "2026-11-10": 11,
   "2026-11-11": 8,
-  "2026-11-12": 5
+  "2026-11-12": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",

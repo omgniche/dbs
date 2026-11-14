@@ -5481,7 +5481,15 @@
   "https://www.raiders.com/news/comienza-la-era-mendoza-ante-la-mejor-defensa-en-la-nfl",
   "https://www.mlb.com/news/gunnar-henderson-outlook-for-orioles-in-2027",
   "https://www.mlb.com/news/mlb-candidates-to-win-first-mvp-cy-young-2027",
-  "https://www.nhl.com/predators/news/preds-official-podcast-six-straight-and-the-hall-of-fame-2026-11-13"
+  "https://www.nhl.com/predators/news/preds-official-podcast-six-straight-and-the-hall-of-fame-2026-11-13",
+  "https://www.mlb.com/news/what-makes-tarik-skubal-so-dominant",
+  "https://www.nhl.com/news/new-york-rangers-vancouver-canucks-game-recap-november-13-2026",
+  "https://www.nhl.com/hurricanes/news/preview-november-14-vs-seattle",
+  "https://www.nhl.com/devils/news/preview-2026020318",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-at-ducks-nov-14-2026",
+  "https://www.nhl.com/islanders/news/this-day-in-isles-history-nov-14",
+  "https://www.nhl.com/rangers/news/rangers-at-canucks-postgame-notes-11-13-26",
+  "https://www.nhl.com/kraken/news/seattle-kraken-at-carolina-hurricanes-game-preview-projected-lines-111426"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5491,7 +5499,8 @@
   "2026-11-10": 11,
   "2026-11-11": 8,
   "2026-11-12": 6,
-  "2026-11-13": 4
+  "2026-11-13": 4,
+  "2026-11-14": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -5544,7 +5544,14 @@
   "https://www.nhl.com/ducks/news/preview-ducks-look-to-regain-momentum-against-islanders",
   "https://www.nhl.com/bruins/news/need-to-know-bruins-vs-wild-x0673",
   "https://www.nhl.com/hurricanes/news/projected-lineup-november-14-vs-seattle",
-  "https://www.nhl.com/canadiens/news/updates-from-optional-morning-skate-nov-14-2026"
+  "https://www.nhl.com/canadiens/news/updates-from-optional-morning-skate-nov-14-2026",
+  "https://www.nfl.com/news/chiefs-rb-kenneth-walker-groin-downgraded-to-out-for-sunday-s-game-vs-falcons",
+  "https://www.nfl.com/news/nfl-news-roundup-latest-league-updates-from-saturday-nov-14",
+  "https://www.nhl.com/news/nathan-mackinnon-cale-makar-injury-update-colorado-avalanche-november-14-2026",
+  "https://www.clevelandbrowns.com/news/browns-sign-te-carsen-ryan-to-active-roster",
+  "https://www.chargers.com/news/players-to-watch-ravens-week-10-tre-harris",
+  "https://www.nhl.com/panthers/news/preview-panthers-start-weekend-back-to-back-in-st-louis",
+  "https://www.nhl.com/blues/news/projected-lineup-nov-14-vs-florida"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5555,7 +5562,7 @@
   "2026-11-11": 8,
   "2026-11-12": 6,
   "2026-11-13": 4,
-  "2026-11-14": 1
+  "2026-11-14": 3
  },
  "baselined": [
   "https://www.nfl.com/news/",

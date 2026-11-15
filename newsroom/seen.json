@@ -5670,7 +5670,15 @@
   "https://www.nhl.com/blues/news/florida-panthers-st-louis-blues-game-recap-november-14-2026-x2412",
   "https://www.nhl.com/lightning/news/the-backcheck-lightning-create-chances-but-tarasov-shutout-hands-bolts-first-home-loss-nov-14-2026",
   "https://www.nhl.com/lightning/news/mishkins-extra-shift-detroit-red-wings-2-tampa-bay-lightning-0-nov-14-2026",
-  "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkins-extra-shift-detroit-red-wings-2-tampa-bay-lightning-0-nov-14-2026"
+  "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkins-extra-shift-detroit-red-wings-2-tampa-bay-lightning-0-nov-14-2026",
+  "https://www.nba.com/news/giannis-goes-into-football-mode-for-between-the-legs-assist",
+  "https://www.nhl.com/news/san-jose-sharks-utah-mammoth-game-recap-november-14-2026",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-dallas-stars-recap-alex-lyon-jack-quinn",
+  "https://www.nhl.com/sabres/news/topic/game-coverage/buffalo-sabres-dallas-stars-recap-alex-lyon-jack-quinn",
+  "https://www.nhl.com/redwings/news/recap-tarasov-stops-31-shots-as-red-wings-finally-get-the-carrot-blank-lightning-2-0",
+  "https://www.nhl.com/panthers/news/recap-reinhart-hits-700-points-in-win-over-blues",
+  "https://www.nhl.com/capitals/news/devils-down-caps-7-4",
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/devils-down-caps-7-4"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5681,7 +5689,8 @@
   "2026-11-11": 8,
   "2026-11-12": 6,
   "2026-11-13": 4,
-  "2026-11-14": 4
+  "2026-11-14": 4,
+  "2026-11-15": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

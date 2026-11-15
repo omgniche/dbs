@@ -5780,7 +5780,24 @@
   "https://www.nhl.com/news/topic/short-shifts/russell-crowe-gladiator-edmonton-oilers-devon-levi",
   "https://www.buffalobills.com/news/bills-issue-injury-updates-on-cb-christian-benford-and-db-dee-alford",
   "https://www.raiders.com/news/live-game-updates-raiders-vs-seahawks-week-10",
-  "https://www.49ers.com/news/deebo-samuel-regresa-williams-activo-vs-cowboys-inactivos-week-10-sfvsdal"
+  "https://www.49ers.com/news/deebo-samuel-regresa-williams-activo-vs-cowboys-inactivos-week-10-sfvsdal",
+  "https://www.nfl.com/news/with-drake-maye-s-injury-loss-to-lions-is-patriots-season-spiraling-out-of-control",
+  "https://www.nba.com/news/lebron-james-all-time-leaders-rankings",
+  "https://www.nhl.com/news/topic/short-shifts/henrik-lundqvist-goalie-goal-rangers-alumni-classic",
+  "https://www.atlantafalcons.com/news/game-breakdown-what-happened-in-falcons-vs-chiefs",
+  "https://www.buffalobills.com/news/bills-31-jets-12-final-score-recap-highlights",
+  "https://www.panthers.com/news/rapid-reactions-panthers-ride-run-game-and-defense-to-first-place",
+  "https://www.clevelandbrowns.com/news/browns-27-texans-24-final-score-stats-game-recap",
+  "https://www.dallascowboys.com/news/starlights-big-play-tracker-for-cowboys-49ers",
+  "https://www.detroitlions.com/news/four-downs-st-brown-s-week-in-munich-germany-gibbs-mcneill",
+  "https://www.detroitlions.com/news/notebook-offensive-line-dominant-in-lions-week-10-victory-over-new-england-gibbs-goff-williams",
+  "https://www.houstontexans.com/news/houston-texans-vs-indianapolis-colts-how-to-watch-thursday-night-football",
+  "https://www.colts.com/news/colts-snap-five-game-losing-streak-with-win-over-dolphins",
+  "https://www.jaguars.com/news/game-report-2026-week-10-jaguars-40-titans-23",
+  "https://www.neworleanssaints.com/news/carolina-panthers-new-orleans-saints-2026-nfl-week-10-game-recap",
+  "https://www.newyorkjets.com/news/jets-bills-game-recap-11-15-2026",
+  "https://www.seahawks.com/news/2026-week-10-seahawks-at-raiders-in-game-injury-updates",
+  "https://www.tennesseetitans.com/news/titans-fall-40-23-to-jaguars-drop-to-1-8-on-season"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5792,7 +5809,7 @@
   "2026-11-12": 6,
   "2026-11-13": 4,
   "2026-11-14": 4,
-  "2026-11-15": 3
+  "2026-11-15": 5
  },
  "baselined": [
   "https://www.nfl.com/news/",

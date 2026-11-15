@@ -5716,7 +5716,16 @@
   "https://www.nhl.com/news/alex-ovechkin-farewell-tour-around-nhl",
   "https://www.neworleanssaints.com/news/five-things-to-know-about-the-new-orleans-saints-panthers-matchup-sunday-november-15",
   "https://www.nhl.com/predators/news/game-day-preds-at-sharks-november-15-2026-11-15",
-  "https://www.nhl.com/flyers/news/rav4-things-flyers-vs-oilers-x8798"
+  "https://www.nhl.com/flyers/news/rav4-things-flyers-vs-oilers-x8798",
+  "https://www.nfl.com/news/patriots-drake-maye-ankle-injury-lions",
+  "https://www.nfl.com/news/notable-injuries-news-sunday-week-10-games-2026",
+  "https://www.nba.com/news/starting-5-november-15-2026",
+  "https://www.nhl.com/news/nhl-status-report-news-and-notes-november-15-2026",
+  "https://www.nhl.com/news/nhl-on-tap-news-and-notes-november-15-2026",
+  "https://www.jaguars.com/news/o-zone-big-one-on-broadway",
+  "https://www.nhl.com/flames/news/5-things-flames-ducks-15-11-26",
+  "https://www.nhl.com/stars/news/game-day-guide-florida-panthers-vs-dallas-stars-111526",
+  "https://www.nhl.com/islanders/news/the-skinny-islanders-6-ducks-2-nov-15-2026"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5728,7 +5737,7 @@
   "2026-11-12": 6,
   "2026-11-13": 4,
   "2026-11-14": 4,
-  "2026-11-15": 0
+  "2026-11-15": 2
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -1,9 +1,9 @@
 {
  "since": "2026-11-06",
- "runs": 234,
- "headlines_reviewed": 2289,
- "drafts_sent": 57,
+ "runs": 235,
+ "headlines_reviewed": 2298,
+ "drafts_sent": 59,
  "rejected_by_fact_check": 1,
  "blocked_for_betting_terms": 0,
- "claims_removed": 91
+ "claims_removed": 98
 }

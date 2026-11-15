@@ -5725,7 +5725,26 @@
   "https://www.jaguars.com/news/o-zone-big-one-on-broadway",
   "https://www.nhl.com/flames/news/5-things-flames-ducks-15-11-26",
   "https://www.nhl.com/stars/news/game-day-guide-florida-panthers-vs-dallas-stars-111526",
-  "https://www.nhl.com/islanders/news/the-skinny-islanders-6-ducks-2-nov-15-2026"
+  "https://www.nhl.com/islanders/news/the-skinny-islanders-6-ducks-2-nov-15-2026",
+  "https://www.nfl.com/news/buccaneers-qb-baker-mayfield-injury-week-11",
+  "https://www.nfl.com/news/lions-aidan-hutchinson-knee-injury-patriots",
+  "https://www.mlb.com/news/tim-hill-deal-with-yankees",
+  "https://www.atlantafalcons.com/news/atlanta-falcons-week-10-inactives-vs-kansas-city-chiefs",
+  "https://www.buffalobills.com/news/buffalo-bills-inactives-list-at-jets-week-10",
+  "https://www.panthers.com/news/week-10-inactives-at-new-orleans-cornerback-will-lee-inactive-for-saints-games",
+  "https://www.clevelandbrowns.com/news/browns-announce-inactives-for-week-10-vs-the-texans",
+  "https://www.packers.com/news/packers-vikings-week-10-inactives-nov-15-2026",
+  "https://www.houstontexans.com/news/texans-inactives-week-10-vs-cleveland-browns",
+  "https://www.colts.com/news/colts-rule-announce-6-inactive-players-for-week-10",
+  "https://www.jaguars.com/news/in-and-out-2026-week-10-davis-bates-inactive-for-jaguars-vs-titans",
+  "https://www.chiefs.com/news/week-10-inactive-players-chiefs-vs-falcons",
+  "https://www.chargers.com/news/mental-health-chalk-talk-wounded-warrior-project-2026",
+  "https://www.vikings.com/news/inactives-packers-week-10-2026",
+  "https://www.neworleanssaints.com/news/new-orleans-saints-inactives-carolina-panthers-2026-nfl-week-10",
+  "https://www.newyorkjets.com/news/jets-vs-bills-nfl-game-inactives-11-15-2026",
+  "https://www.tennesseetitans.com/news/game-inactives-week-10-titans-vs-jaguars",
+  "https://www.nhl.com/canadiens/news/david-reinbacher-recalled-from-laval-rocket-nov-15-2026",
+  "https://www.nhl.com/canadiens/news/topic/personnel-moves/david-reinbacher-recalled-from-laval-rocket-nov-15-2026"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5737,7 +5756,7 @@
   "2026-11-12": 6,
   "2026-11-13": 4,
   "2026-11-14": 4,
-  "2026-11-15": 2
+  "2026-11-15": 3
  },
  "baselined": [
   "https://www.nfl.com/news/",

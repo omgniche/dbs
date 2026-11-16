@@ -5907,7 +5907,11 @@
   "https://www.steelers.com/news/batko-s-quick-6-steelers-at-bengals",
   "https://www.nhl.com/canucks/news/canucks-play-second-game-of-back-to-back-on-monday-night-in-utah",
   "https://www.bengals.com/news/bengals-steelers-week-10-2026-postgame-quotes",
-  "https://www.steelers.com/news/labriola-on-the-loss-to-the-bengals-x5941"
+  "https://www.steelers.com/news/labriola-on-the-loss-to-the-bengals-x5941",
+  "https://www.nfl.com/news/jaxon-smith-njigba-s-144-yard-third-quarter-boosts-seahawks-past-raiders",
+  "https://www.nfl.com/news/nfl-network-patriots-qb-drake-maye-could-miss-rest-of-2026-season",
+  "https://www.panthers.com/news/inside-the-numbers-panthers-at-new-orleans-in-week-10",
+  "https://www.detroitlions.com/news/detroit-lions-week-10-observations-mcneill-sewell-gibbs-goff"
  ],
  "days": {
   "2026-11-06": 9,
@@ -5920,7 +5924,7 @@
   "2026-11-13": 4,
   "2026-11-14": 4,
   "2026-11-15": 5,
-  "2026-11-16": 0
+  "2026-11-16": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

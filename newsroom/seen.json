@@ -5998,7 +5998,18 @@
   "https://www.mlb.com/news/brett-gardner-mlb-hall-of-fame-ballot",
   "https://www.nhl.com/bruins/news/practice-report-lohrei-bruins-look-to-bounce-back",
   "https://www.nhl.com/hurricanes/news/ehlers-named-nhl-s-third-star-of-the-week",
-  "https://www.nhl.com/jets/news/scheifele-named-nhl-s-first-star-of-the-week-x1263"
+  "https://www.nhl.com/jets/news/scheifele-named-nhl-s-first-star-of-the-week-x1263",
+  "https://www.nfl.com/news/nfl-week-10-sunday-aftermath-bengals-equal-afc-s-best-kirk-cousins-returns-mendoza-debuts",
+  "https://www.nba.com/news/grizzlies-gg-jackson-to-undergo-foot-surgery",
+  "https://www.nhl.com/news/columbus-blue-jackets-coach-rick-bowness-planning-to-return-during-road-trip",
+  "https://www.raiders.com/news/gutierrez-steep-learning-curve-in-first-start-outlines-both-potential-inexperience-of-fernando-mendoza",
+  "https://www.vikings.com/news/wide-receiver-jordan-addison-short-term-injured-reserve-2026",
+  "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-11-16",
+  "https://www.seahawks.com/news/12-numbers-of-note-from-the-seahawks-week-10-win-in-las-vegas",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-practice-lines-lineup-jiri-kulich",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-annnounce-fubo-returns-streaming-msg-southern-ontario",
+  "https://www.nhl.com/sabres/news/topic/practice-coverage/buffalo-sabres-practice-lines-lineup-jiri-kulich",
+  "https://www.nhl.com/oilers/news/release-howard-activated-off-ir-loaned-to-condors"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6011,7 +6022,7 @@
   "2026-11-13": 4,
   "2026-11-14": 4,
   "2026-11-15": 5,
-  "2026-11-16": 2
+  "2026-11-16": 3
  },
  "baselined": [
   "https://www.nfl.com/news/",

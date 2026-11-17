@@ -6094,7 +6094,16 @@
   "https://www.steelers.com/news/slow-road-starts-honest-conversations-skowronek",
   "https://www.49ers.com/news/what-the-49ers-and-cowboys-had-to-say-after-week-10",
   "https://www.nhl.com/blackhawks/news/preview-blackhawks-continue-homestand-against-maple-leafs",
-  "https://www.nhl.com/senators/news/belleville-preparing-for-first-of-two-school-games-in-november"
+  "https://www.nhl.com/senators/news/belleville-preparing-for-first-of-two-school-games-in-november",
+  "https://www.nba.com/news/lebron-james-sits-out-vs-brooklyn-on-second-night-of-76ers-back-to-back",
+  "https://www.chicagobears.com/news/bears-hoping-to-hit-the-ground-running-after-bye-week",
+  "https://www.bengals.com/news/quick-hits-bengals-monday-night-storylines-joe-burrow-vs-jayden-daniels-jonathan-allen-returns-dan-pitcher-please-blitz-us",
+  "https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts",
+  "https://www.49ers.com/news/after-further-review-kyle-shanahan-shares-injury-updates-takeaways-from-cowboys-win",
+  "https://www.mlb.com/news/prospects-on-40-man-roster-bubble-2026",
+  "https://www.nhl.com/wild/news/minnesota-wild-acquires-defenseman-jeremy-davies-from-vegas-golden-knights-111626",
+  "https://www.nhl.com/goldenknights/news/special-delivery-knights-hockey-week",
+  "https://www.nhl.com/goldenknights/news/golden-knights-silver-knights-announce-roster-transactions"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6107,7 +6116,7 @@
   "2026-11-13": 4,
   "2026-11-14": 4,
   "2026-11-15": 5,
-  "2026-11-16": 7
+  "2026-11-16": 8
  },
  "baselined": [
   "https://www.nfl.com/news/",

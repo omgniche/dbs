@@ -6082,7 +6082,19 @@
   "https://www.nhl.com/blues/news/walker-recalled-from-springfield-x6606",
   "https://www.nhl.com/lightning/news/nuts-bolts-caps-coming-back-to-town",
   "https://www.nhl.com/capitals/news/caps-look-to-tighten-up-in-tampa",
-  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-look-to-tighten-up-in-tampa"
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-look-to-tighten-up-in-tampa",
+  "https://www.nfl.com/news/week-10-monday-night-inactives-los-angeles-chargers-at-baltimore-ravens",
+  "https://www.nba.com/news/clevelands-evan-mobley-out-7-10-days-with-toe-injury",
+  "https://www.baltimoreravens.com/news/ravens-inactives-chagers-shakeup-defense-practice-squad-nick-vannett-chris-moore-chandler-rivers",
+  "https://www.dallascowboys.com/news/brian-schottenheimer-cowboys-taking-a-deep-dive-looking-at-everything-on-defense",
+  "https://www.dallascowboys.com/news/tyler-booker-expected-to-miss-time-with-injury-suffered-vs-49ers",
+  "https://www.colts.com/news/practice-notebook-colts-conduct-monday-walkthrough",
+  "https://www.raiders.com/news/raiders-arrancaron-fuerte-pero-seattle-respondio-en-el-debut-de-mendoza-como-titular",
+  "https://www.chargers.com/news/ravens-inactives-week-10-2026",
+  "https://www.steelers.com/news/slow-road-starts-honest-conversations-skowronek",
+  "https://www.49ers.com/news/what-the-49ers-and-cowboys-had-to-say-after-week-10",
+  "https://www.nhl.com/blackhawks/news/preview-blackhawks-continue-homestand-against-maple-leafs",
+  "https://www.nhl.com/senators/news/belleville-preparing-for-first-of-two-school-games-in-november"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6095,7 +6107,7 @@
   "2026-11-13": 4,
   "2026-11-14": 4,
   "2026-11-15": 5,
-  "2026-11-16": 6
+  "2026-11-16": 7
  },
  "baselined": [
   "https://www.nfl.com/news/",

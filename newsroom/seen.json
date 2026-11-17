@@ -6201,7 +6201,19 @@
   "https://www.mlb.com/news/dustin-may-leaves-brewers-as-free-agent",
   "https://www.nhl.com/bruins/news/need-to-know-bruins-vs-kings-x7745",
   "https://www.nhl.com/wild/news/we-actually-sent-a-jersey-to-space-111726",
-  "https://www.nhl.com/blues/news/projected-lineup-nov-17-vs-anaheim"
+  "https://www.nhl.com/blues/news/projected-lineup-nov-17-vs-anaheim",
+  "https://www.nfl.com/news/cowboys-jerry-jones-on-dc-christian-parker-s-role-we-re-talking-about-that",
+  "https://www.mlb.com/news/tarik-skubal-rumors-november-17-free-agent-update",
+  "https://www.nhl.com/news/alex-ovechkin-gets-hot-stick-cigars-from-lightning-as-gift-for-final-visit-to-tampa",
+  "https://www.azcardinals.com/news/you-ve-got-mail-of-beck-and-those-around-him",
+  "https://www.baltimoreravens.com/news/ravens-two-games-stay-alive-jesse-minter-kyle-hamilton-derrick-henry-losing-streak-chargers-loss",
+  "https://www.therams.com/news/rams-power-rankings-week-11-2026",
+  "https://www.vikings.com/news/lunchbreak-defense-49ers-offense-coolest-game-of-season",
+  "https://www.tennesseetitans.com/news/tuesday-mailbag-jim-wyatt-answers-questions-from-titans-fans-after-sunday-s-loss-to-jaguars",
+  "https://www.commanders.com/news/sonny-styles-game-saving-tackle-commanders-giants",
+  "https://www.nhl.com/panthers/news/preview-panthers-ready-for-tough-challenge-against-league-leading-oilers",
+  "https://www.nhl.com/kings/news/tune-in-kings-versus-bruins-november-17",
+  "https://www.nhl.com/devils/news/keefe-provides-updates-on-mantha-kovacevic-casey-injury-report-11-17-26"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6215,7 +6227,7 @@
   "2026-11-14": 4,
   "2026-11-15": 5,
   "2026-11-16": 10,
-  "2026-11-17": 4
+  "2026-11-17": 5
  },
  "baselined": [
   "https://www.nfl.com/news/",

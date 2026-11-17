@@ -6287,7 +6287,21 @@
   "https://www.colts.com/news/practice-notebook-both-colts-starting-tackles-cornerbacks-listed-as-dnp-for-second-consecutive-day-ahead-of-week-11-game-vs-texans",
   "https://www.vikings.com/news/signing-safety-danthony-bell-to-practice-squad-2026",
   "https://www.mlb.com/news/william-bergolla-jr-jaden-woods-white-sox-40-man-joey-bart-dfa",
-  "https://www.nhl.com/devils/news/preview-2026020345"
+  "https://www.nhl.com/devils/news/preview-2026020345",
+  "https://www.mlb.com/news/red-sox-introduce-jake-bauers-in-press-conference",
+  "https://www.buffalobills.com/news/the-advanced-stats-behind-the-bills-week-10-victory-over-the-new-york-jets",
+  "https://www.buffalobills.com/news/bills-notebook-amani-hooker-s-seamless-debut-signs-of-defensive-growth-and-buffalo-s-60-minute-mindset",
+  "https://www.chicagobears.com/news/bears-receiver-luther-burden-iii-clears-concussion-protocol",
+  "https://www.therams.com/news/rams-injury-updates-coleman-shelton-out-4-6-weeks-with-hamstring-strain-dylan-mcmahon",
+  "https://www.vikings.com/news/nfl-power-rankings-vault-after-toppling-packers-in-green-bay",
+  "https://www.49ers.com/news/osa-odighizuwa-turns-gratitude-into-community-support-off-the-field",
+  "https://www.mlb.com/news/davis-polo-cedric-de-grandpre-added-to-braves-40-man-roster",
+  "https://www.mlb.com/news/jackson-cox-jack-mahoney-bryant-betancourt-rockies-40-man-roster",
+  "https://www.mlb.com/news/emilio-pagan-signs-one-year-deal-with-tigers",
+  "https://www.mlb.com/news/royals-add-two-prospects-to-40-man-roster",
+  "https://www.nhl.com/kraken/news/seattle-kraken-prepare-for-schedule-post-nhl-global-series",
+  "https://www.nhl.com/capitals/news/opportunity-for-st-ivany-and-cigars-for-ovechkin",
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/opportunity-for-st-ivany-and-cigars-for-ovechkin"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6301,7 +6315,7 @@
   "2026-11-14": 4,
   "2026-11-15": 5,
   "2026-11-16": 10,
-  "2026-11-17": 5
+  "2026-11-17": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",

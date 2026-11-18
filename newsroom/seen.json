@@ -6373,7 +6373,12 @@
   "https://www.nhl.com/lightning/news/mishkin-s-extra-shift-tampa-bay-lightning-5-washington-capitals-2",
   "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkin-s-extra-shift-tampa-bay-lightning-5-washington-capitals-2",
   "https://www.nhl.com/capitals/news/caps-fall-to-bolts-5-2",
-  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-fall-to-bolts-5-2"
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-fall-to-bolts-5-2",
+  "https://www.mlb.com/news/richie-and-joshua-palacios-host-baseball-camp-in-brooklyn",
+  "https://www.nhl.com/flames/news/flames-close-road-trip-with-victory-in-san-jose",
+  "https://www.nhl.com/wild/news/nashville-predators-minnesota-wild-game-recap-november-17-2026-x4595",
+  "https://www.nhl.com/blues/news/anaheim-ducks-st-louis-blues-game-recap-november-17-2026-x0598",
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6387,7 +6392,8 @@
   "2026-11-14": 4,
   "2026-11-15": 5,
   "2026-11-16": 10,
-  "2026-11-17": 8
+  "2026-11-17": 8,
+  "2026-11-18": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -6378,7 +6378,13 @@
   "https://www.nhl.com/flames/news/flames-close-road-trip-with-victory-in-san-jose",
   "https://www.nhl.com/wild/news/nashville-predators-minnesota-wild-game-recap-november-17-2026-x4595",
   "https://www.nhl.com/blues/news/anaheim-ducks-st-louis-blues-game-recap-november-17-2026-x0598",
-  "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026"
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026",
+  "https://www.nhl.com/news/calgary-flames-san-jose-sharks-game-recap-november-17-2026",
+  "https://www.nhl.com/news/dallas-stars-vegas-golden-knights-game-recap-november-17-2026",
+  "https://www.nhl.com/news/cutter-gauthier-playing-with-confidence-for-anaheim-ducks",
+  "https://www.nhl.com/blackhawks/news/toronto-maple-leafs-chicago-blackhawks-game-recap-november-17-2026-x4951",
+  "https://www.nhl.com/sharks/news/calgary-flames-san-jose-sharks-game-recap-november-17-2026-x1751",
+  "https://www.nhl.com/goldenknights/news/golden-knights-drop-4-3-overtime-decision-to-dallas"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6393,7 +6399,7 @@
   "2026-11-15": 5,
   "2026-11-16": 10,
   "2026-11-17": 8,
-  "2026-11-18": 0
+  "2026-11-18": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

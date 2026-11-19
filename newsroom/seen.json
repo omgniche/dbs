@@ -6725,7 +6725,18 @@
   "https://www.mlb.com/news/space-potatoes-name-1961-new-hampshire-ufo-encounter",
   "https://www.nhl.com/flames/news/projected-lineup-flames-vs-wild-19-11-26",
   "https://www.nhl.com/wild/news/minnesota-wild-recalls-forward-tyler-pitlick-from-iowa-111926",
-  "https://www.nhl.com/blues/news/projected-lineup-nov-19-at-pittsburgh"
+  "https://www.nhl.com/blues/news/projected-lineup-nov-19-at-pittsburgh",
+  "https://www.nfl.com/news/ravens-cb-marlon-humphrey-sent-home-wont-play-week-11-game-baltimore-comments",
+  "https://www.nfl.com/news/next-woman-up-kristin-wojcik-senior-manager-of-football-communications-for-the-san-francisco-49ers",
+  "https://www.mlb.com/news/francisco-cervelli-hired-manager-aguilas-cibaenas-dominican-winter-league",
+  "https://www.panthers.com/news/three-takeaways-from-panthers-coordinators-including-getting-wrs-on-track-and-respect-for-derrick-henry",
+  "https://www.therams.com/news/first-look-rams-host-packers-on-thanksgiving-eve-in-week-12-2026",
+  "https://www.giants.com/news/inside-the-numbers-tale-of-the-tape-for-week-11-stats-jaguars-trevor-lawrence-jj-mccarthy",
+  "https://www.commanders.com/news/commanders-sign-wr-malik-heath-to-practice-squad",
+  "https://www.mlb.com/news/rainiel-rodriguez-mason-molina-2026-cardinals-minor-league-awards",
+  "https://www.nhl.com/flames/news/whitecloud-commited-to-community-work",
+  "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-lightning-11-01-26",
+  "https://www.nhl.com/kings/news/tune-in-kings-versus-toronto-november-19"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6741,7 +6752,7 @@
   "2026-11-16": 10,
   "2026-11-17": 8,
   "2026-11-18": 1,
-  "2026-11-19": 1
+  "2026-11-19": 2
  },
  "baselined": [
   "https://www.nfl.com/news/",

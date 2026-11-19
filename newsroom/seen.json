@@ -6772,7 +6772,22 @@
   "https://www.nhl.com/panthers/news/notebook-updates-on-barkov-and-marchand-tkachuk-s-impressive-point-streak",
   "https://www.nhl.com/wild/news/game-preview-wild-at-flames-111926",
   "https://www.nhl.com/senators/news/sens-turn-to-ersson-as-three-game-homestand-begins",
-  "https://www.nhl.com/jets/news/he-would-just-be-really-proud-of-him"
+  "https://www.nhl.com/jets/news/he-would-just-be-really-proud-of-him",
+  "https://www.nfl.com/news/puka-nacua-suspension-rams-nfl",
+  "https://www.mlb.com/news/yankees-free-agent-and-trade-possibilities-at-third-base-for-2027",
+  "https://www.mlb.com/news/why-the-phillies-need-a-right-handed-hitter",
+  "https://www.panthers.com/news/panthers-bring-back-offensive-tackle-albert-reese",
+  "https://www.detroitlions.com/news/detroit-lions-celebrate-nfl-s-salute-to-service-initiative-honoring-military-members-veterans-and-their-families",
+  "https://www.houstontexans.com/news/texans-vs-colts-by-the-numbers-can-c-j-stroud-stay-hot-on-thursday-night",
+  "https://www.colts.com/news/colts-elevate-cb-natrone-brooks-g-reid-holskey-to-active-roster-from-practice-squad-for-week-11",
+  "https://www.jaguars.com/news/jaguars-host-50-former-players-for-2026-legends-weekend",
+  "https://www.therams.com/news/how-kliff-kingsbury-is-learning-and-helping-behind-the-scenes-as-assistant-head-coach-for-the-rams",
+  "https://www.therams.com/news/rams-and-the-hartford-host-second-annual-wheelchair-football-practice-and-youth-sports-clinic",
+  "https://www.miamidolphins.com/news/aqua-archives-buffalo-bills-battles",
+  "https://www.tennesseetitans.com/news/quick-hits-on-the-titans-from-thursday-of-cowboys-week",
+  "https://www.commanders.com/news/commanders-vs-bengals-week-11-injury-report",
+  "https://www.mlb.com/news/red-sox-wilyer-abreu-among-most-underrated-players-mlb",
+  "https://www.nhl.com/wild/news/projected-lineup-wild-at-flames-111926"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6788,7 +6803,7 @@
   "2026-11-16": 10,
   "2026-11-17": 8,
   "2026-11-18": 1,
-  "2026-11-19": 4
+  "2026-11-19": 5
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -6622,7 +6622,13 @@
   "https://www.nhl.com/news/montreal-canadiens-new-jersey-devils-game-recap-november-18-2026",
   "https://www.nhl.com/devils/news/game-story-2026020345",
   "https://www.nhl.com/kraken/news/vancouver-canucks-vs-seattle-kraken-game-preview-projected-lines-111926",
-  "https://www.nhl.com/utah/news/colorado-vs-utah-live-blog-11-18-26"
+  "https://www.nhl.com/utah/news/colorado-vs-utah-live-blog-11-18-26",
+  "https://www.nhl.com/news/vezina-trophy-tracker-wild-jesper-wallstedt-early-favorite-november-19-2026",
+  "https://www.nhl.com/news/ncaa-notebook-10-undrafted-players-getting-attention-from-nhl-scouts",
+  "https://www.nhl.com/news/topic/super-16/super-16-nhl-power-rankings-november-19-2026",
+  "https://www.nhl.com/hurricanes/news/preview-november-19-vs-montreal",
+  "https://www.nhl.com/canadiens/news/mtl-njd-game-recap-nov-18-2026",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-at-jets-nov-19-2026"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6637,7 +6643,8 @@
   "2026-11-15": 5,
   "2026-11-16": 10,
   "2026-11-17": 8,
-  "2026-11-18": 1
+  "2026-11-18": 1,
+  "2026-11-19": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

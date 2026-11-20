@@ -6835,7 +6835,17 @@
   "https://www.houstontexans.com/news/texans-inactives-week-11-vs-indianapolis-colts",
   "https://www.colts.com/news/colts-announce-7-inactive-players-for-week-11-game-vs-houston-texans",
   "https://www.vikings.com/news/nfl-expert-picks-tight-scores-49ers-blockbuster-week-11",
-  "https://www.commanders.com/news/takeaways-jayden-daniels-press-conference"
+  "https://www.commanders.com/news/takeaways-jayden-daniels-press-conference",
+  "https://www.mlb.com/news/davis-martin-luis-castillo-rockies-white-sox-trade",
+  "https://www.mlb.com/news/top-30-arizona-fall-league-prospects-2026",
+  "https://www.mlb.com/news/dustin-may-discusses-joining-white-sox-rotation",
+  "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+  "https://www.bengals.com/news/quick-hits-jonathan-allen-returns-with-an-old-move-and-a-new-team-that-could-be-his-best-yet-joe-burrow-ja-marr-chase-s-newest-number-is-nine",
+  "https://www.denverbroncos.com/news/he-s-the-perfect-personality-for-that-job-how-cb-riley-moss-embraced-the-challenge-of-playing-opposite-pat-surtain-ii-earned-second-contract-with-broncos",
+  "https://www.chiefs.com/news/important-fan-information-for-sunday-s-game-vs-the-arizona-cardinals-at-arrowhead-stadium",
+  "https://www.chargers.com/news/omarion-hampton-mike-mcdaniel-fantasy-week-11",
+  "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
+  "https://www.nhl.com/oilers/news/live-updates-oilers-at-lightning-11-19-26"
  ],
  "days": {
   "2026-11-06": 9,
@@ -6851,7 +6861,7 @@
   "2026-11-16": 10,
   "2026-11-17": 8,
   "2026-11-18": 1,
-  "2026-11-19": 5
+  "2026-11-19": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",

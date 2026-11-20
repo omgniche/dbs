@@ -6923,7 +6923,29 @@
   "https://www.mlb.com/news/christian-walker-s-gold-glove-award-defense-at-first-base-for-astros",
   "https://www.mlb.com/news/pirates-catching-outlook-entering-2027",
   "https://www.mlb.com/news/padres-remaining-needs-for-2026-2027-offseason",
-  "https://www.mlb.com/news/rays-areas-of-improvement"
+  "https://www.mlb.com/news/rays-areas-of-improvement",
+  "https://www.nfl.com/news/aidan-hutchinson-lions-season-ending-injury-hold-down-the-fort",
+  "https://www.nfl.com/news/the-colts-season-is-over-benching-daniel-jones-won-t-mask-how-bad-this-team-is",
+  "https://www.nfl.com/news/commanders-gush-over-bachelor-and-teammate-sam-hartman-best-looking-guy-i-ve-ever-seen",
+  "https://www.nfl.com/news/the-cowboys-might-be-america-s-team-the-49ers-aim-to-become-the-world-s-team",
+  "https://www.nfl.com/news/bills-to-retire-hall-of-fame-wide-receiver-andre-reed-no-83-next-season",
+  "https://www.nba.com/news/starting-5-november-20-2026",
+  "https://www.nhl.com/news/philadelphia-flyers-goalie-tandem-vladar-woll-elevated-through-early-season-struggles",
+  "https://www.baltimoreravens.com/news/ravens-panthers-game-predictions-realistic-shot-playoffs-declan-doyle-2026",
+  "https://www.baltimoreravens.com/news/ravens-panthers-game-picks-week-11-2026",
+  "https://www.buffalobills.com/news/buffalo-bills-vs-miami-dolphins-where-to-watch-stream-and-listen-week-11",
+  "https://www.clevelandbrowns.com/news/deshaun-watson-plays-key-part-in-browns-success-in-2026",
+  "https://www.packers.com/news/inbox-hopefully-he-never-changes-nov-20-2026",
+  "https://www.houstontexans.com/news/houston-texans-vs-baltimore-ravens-how-to-watch-listen-live-stream",
+  "https://www.colts.com/news/indianapolis-colts-high-school-football-development-zane-westerlund-has-guided-chesterton-on-its-magical-post-season-journey",
+  "https://www.therams.com/news/rams-be-the-people-team-up-to-expand-youth-access-to-sports-and-help-more-local-kids-get-in-the-game",
+  "https://www.neworleanssaints.com/news/five-things-to-know-about-the-new-orleans-saints-week-11-bears-matchup-for-friday-november-20",
+  "https://www.neworleanssaints.com/news/morning-break-saints-get-ready-for-familiar-defense-in-chicago-quincy-riley-earns-more-opportunities-new-orleans-news-headlines-11-20-2026",
+  "https://www.giants.com/news/numbers-to-know-giants-jaguars-week-11-jj-mccarthy-cam-skattebo-isaiah-likely-abdul-carter-jevon-holland",
+  "https://www.buccaneers.com/news/performance-preview-week-11-master-motown-bucky-irving-jacob-parrish-emeka-egbuka",
+  "https://www.nhl.com/hurricanes/news/hurricanes-step-out-in-kids-cancer-awareness-shoes",
+  "https://www.nhl.com/senators/news/stuetzle-dazzles-sens-fall-in-overtime-to-flyers",
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-vs-kings-nov-19-2026"
  ],
  "days": {
   "2026-11-07": 1,
@@ -6939,7 +6961,7 @@
   "2026-11-17": 8,
   "2026-11-18": 1,
   "2026-11-19": 7,
-  "2026-11-20": 1
+  "2026-11-20": 2
  },
  "baselined": [
   "https://www.nfl.com/news/",

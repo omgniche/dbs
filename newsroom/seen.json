@@ -7056,7 +7056,28 @@
   "https://www.nhl.com/blackhawks/news/preview-blackhawks-head-to-calgary-for-matchup-against-flames",
   "https://www.nhl.com/stars/news/a-beautiful-mess-stars-still-boast-potential-for-growth-after-solid-first-quarter-of-season-112026",
   "https://www.nhl.com/kings/news/insider-kevin-fiala-mats-zuccarello-making-strides-in-lineup-returns",
-  "https://www.nhl.com/devils/news/10-takeaways-11-20-26"
+  "https://www.nhl.com/devils/news/10-takeaways-11-20-26",
+  "https://www.nfl.com/news/49ers-mike-evans-on-track-to-play-vs-vikings-after-missing-past-month-with-achilles-injury",
+  "https://www.nfl.com/news/buccaneers-baker-mayfield-questionable-to-play-vs-lions",
+  "https://www.mlb.com/news/gavin-sheets-padres-contract-extension",
+  "https://www.mlb.com/news/shohei-ohtani-new-balance-extend-partnership-for-rest-of-career",
+  "https://www.nhl.com/news/nhl-status-report-news-and-notes-november-20-2026",
+  "https://www.nhl.com/news/nhl-com-roundtable-14-game-saturday-best-games-highlighted",
+  "https://www.azcardinals.com/news/needing-more-trey-mcbride-hello-josh-johnson-and-friday-before-the-chiefs",
+  "https://www.chicagobears.com/news/jeffery-simmons-kyle-monangai-good-to-go-against-saints-injury-update",
+  "https://www.dallascowboys.com/news/shemar-james-on-play-calling-transition-as-cowboys-green-dot-lb",
+  "https://www.dallascowboys.com/news/gut-feeling-staff-predictions-for-cowboys-titans",
+  "https://www.dallascowboys.com/news/just-8-cowboys-best-4th-round-picks",
+  "https://www.dallascowboys.com/news/quinnen-williams-named-finalist-for-bart-starr-award",
+  "https://www.chiefs.com/news/how-to-watch-and-listen-week-11-cardinals-vs-chiefs",
+  "https://www.raiders.com/news/what-they-re-saying-klint-kubiak-fernando-mendoza-receive-praise-from-denver-broncos-players-and-staff",
+  "https://www.vikings.com/news/san-francisco-49ers-mexico-city-game-preview-nfl-week-11",
+  "https://www.newyorkjets.com/news/jets-injury-report-week-11-vs-chargers-friday-11-20-2026",
+  "https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-20-week-11-2026",
+  "https://www.commanders.com/news/jacory-croskey-merritt-injury-return-commanders-bengals-weekly-matchup",
+  "https://www.mlb.com/news/red-sox-2026-non-tender-deadline-decisions",
+  "https://www.nhl.com/flames/news/5-things-flames-vs-blackhawks-21-11-26",
+  "https://www.nhl.com/senators/news/ottawa-charge-players-to-be-in-attendance-on-saturday-as-sens-and-kings-play"
  ],
  "days": {
   "2026-11-07": 1,
@@ -7072,7 +7093,7 @@
   "2026-11-17": 8,
   "2026-11-18": 1,
   "2026-11-19": 7,
-  "2026-11-20": 3
+  "2026-11-20": 4
  },
  "baselined": [
   "https://www.nfl.com/news/",

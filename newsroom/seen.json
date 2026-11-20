@@ -6891,10 +6891,21 @@
   "https://www.nhl.com/lightning/news/the-backcheck-lightning-silence-high-flying-oilers-with-staunch-defensive-victory-nov-19-2026",
   "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkins-extra-shift-tampa-bay-lightning-3-edmonton-oilers-1-nov-19-2026",
   "https://www.nhl.com/capitals/news/caps-slide-hits-four-in-loss-to-sabres",
-  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-slide-hits-four-in-loss-to-sabres"
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-slide-hits-four-in-loss-to-sabres",
+  "https://www.mlb.com/news/brian-cashman-on-yankees-offseason-moves-sleep-out-charity-event",
+  "https://www.nhl.com/news/anaheim-ducks-colorado-avalanche-game-recap-november-19-2026",
+  "https://www.nhl.com/news/ovechkin-franchise-record-assist-overshadowed-as-washington-capitals-struggle",
+  "https://www.houstontexans.com/news/stroud-cooks-on-rivalries-night-vanderblog",
+  "https://www.colts.com/news/colts-head-coach-shane-steichen-says-he-ll-evaluate-everything-after-thursday-night-trouncing-by-texans",
+  "https://www.nhl.com/ducks/news/anaheim-ducks-colorado-avalanche-game-recap-november-19-2026-x6005",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-washington-capitals-recap-sam-carrick-fight",
+  "https://www.nhl.com/sabres/news/topic/game-coverage/buffalo-sabres-washington-capitals-recap-sam-carrick-fight",
+  "https://www.nhl.com/avalanche/news/game-recap-11-19-26",
+  "https://www.nhl.com/wild/news/minnesota-wild-calgary-flames-game-recap-november-19-2026-x1732",
+  "https://www.nhl.com/kraken/news/postgame-instant-analysis-vancouver-cancuks-seattle-kraken-111926",
+  "https://www.nhl.com/kraken/news/final-buzzer-vancouver-canucks-seattle-kraken-game-recap-111926"
  ],
  "days": {
-  "2026-11-06": 9,
   "2026-11-07": 1,
   "2026-11-08": 5,
   "2026-11-09": 9,
@@ -6907,7 +6918,8 @@
   "2026-11-16": 10,
   "2026-11-17": 8,
   "2026-11-18": 1,
-  "2026-11-19": 7
+  "2026-11-19": 7,
+  "2026-11-20": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

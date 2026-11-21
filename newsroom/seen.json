@@ -7179,7 +7179,14 @@
   "https://www.miamidolphins.com/news/game-preview-miami-dolphins-at-buffalo-bills-x3267",
   "https://www.nhl.com/hurricanes/news/projected-lineup-november-21-vs-edmonton",
   "https://www.nhl.com/devils/news/preview-2026020368",
-  "https://www.nhl.com/mapleleafs/news/game-day-vs-blue-jackets-nov-21-2026"
+  "https://www.nhl.com/mapleleafs/news/game-day-vs-blue-jackets-nov-21-2026",
+  "https://www.nfl.com/news/nfl-how-to-watch-week-11-nfl-games-schedule-mexico-city-game-details-and-more",
+  "https://www.nhl.com/news/nhl-status-report-news-and-notes-november-21-2026",
+  "https://www.tennesseetitans.com/news/weekend-mailbag-jim-wyatt-answers-questions-from-titans-fans-ahead-of-sunday-s-game-vs-the-cowboys",
+  "https://www.nhl.com/bruins/news/need-to-know-bruins-vs-capitals-x5217",
+  "https://www.nhl.com/panthers/news/preview-panthers-host-sabres-for-divisional-battle-in-sunrise",
+  "https://www.nhl.com/canadiens/news/updates-from-optional-morning-skate-nov-21-2026",
+  "https://www.nhl.com/blues/news/projected-lineup-nov-21-vs-new-jersey"
  ],
  "days": {
   "2026-11-08": 5,
@@ -7195,7 +7202,7 @@
   "2026-11-18": 1,
   "2026-11-19": 7,
   "2026-11-20": 4,
-  "2026-11-21": 0
+  "2026-11-21": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

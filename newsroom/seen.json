@@ -7136,10 +7136,13 @@
   "https://www.mlb.com/news/camilo-doval-giants-contract-christian-koss-traded-to-rays",
   "https://www.nba.com/news/bulls-rookie-caleb-wilson-hand-recovery",
   "https://www.nhl.com/news/european-notebook-late-round-nhl-draft-picks-making-an-impact",
-  "https://www.denverbroncos.com/news/game-preview-winning-turnover-battle-slowing-fernando-mendoza-among-keys-as-broncos-face-raiders-in-week-11-matchup"
+  "https://www.denverbroncos.com/news/game-preview-winning-turnover-battle-slowing-fernando-mendoza-among-keys-as-broncos-face-raiders-in-week-11-matchup",
+  "https://www.mlb.com/news/all-time-top-angels-draft-picks",
+  "https://www.nhl.com/hurricanes/news/preview-november-21-vs-edmonton",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-at-red-wings-nov-21-2026",
+  "https://www.nhl.com/islanders/news/endless-energy-powered-casey-cizikas-to-1-000-games-with-islanders"
  ],
  "days": {
-  "2026-11-07": 1,
   "2026-11-08": 5,
   "2026-11-09": 9,
   "2026-11-10": 11,
@@ -7152,7 +7155,8 @@
   "2026-11-17": 8,
   "2026-11-18": 1,
   "2026-11-19": 7,
-  "2026-11-20": 4
+  "2026-11-20": 4,
+  "2026-11-21": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -7221,7 +7221,22 @@
   "https://www.mlb.com/news/is-the-padres-improved-infield-defense-sustainable",
   "https://www.nhl.com/redwings/news/preview-red-wings-islanders-set-for-eastern-conference-matchup-on-saturday",
   "https://www.nhl.com/senators/news/cousins-returns-sens-look-to-continue-torrid-november",
-  "https://www.nhl.com/lightning/news/lightning-sled-hockey-helped-11-year-old-calvin-little-recover-from-cancer"
+  "https://www.nhl.com/lightning/news/lightning-sled-hockey-helped-11-year-old-calvin-little-recover-from-cancer",
+  "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-21",
+  "https://www.baltimoreravens.com/news/ravens-elevate-practice-squad-nick-vannett-david-olajiga-2026",
+  "https://www.buffalobills.com/news/bills-roster-moves-nov-21",
+  "https://www.panthers.com/news/panthers-activate-mike-jackson-from-ir-among-other-moves-isaiah-simmons-ir",
+  "https://www.packers.com/news/packers-announce-roster-moves-nov-21-2026",
+  "https://www.jaguars.com/news/roster-moves-jaguars-elevate-ol-eli-cox",
+  "https://www.chargers.com/news/activate-trey-pipkins-iii-2026",
+  "https://www.newyorkjets.com/news/jets-elevate-wr-sterling-shepard-from-practice-squad-for-game-vs-chargers-11-21-2026",
+  "https://www.philadelphiaeagles.com/news/eagles-activate-will-shipley-place-zack-baun-dontayvion-wicks-on-injured-reserve",
+  "https://www.buccaneers.com/news/bucs-activate-safety-j-j-roberts-for-lions-game",
+  "https://www.commanders.com/news/game-status-commanders-bengals-week-11",
+  "https://www.nhl.com/ducks/news/preview-ducks-look-to-bounce-back-against-mammoth",
+  "https://www.nhl.com/ducks/news/ducks-recall-myatovic-from-san-diego-x8588",
+  "https://www.nhl.com/flames/news/projected-lineup-flames-vs-blackhawks-21-11-26",
+  "https://www.nhl.com/wild/news/game-preview-wild-at-canucks-112126"
  ],
  "days": {
   "2026-11-08": 5,
@@ -7237,7 +7252,7 @@
   "2026-11-18": 1,
   "2026-11-19": 7,
   "2026-11-20": 4,
-  "2026-11-21": 5
+  "2026-11-21": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",

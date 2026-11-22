@@ -7296,10 +7296,18 @@
   "https://www.nhl.com/bruins/news/elias-lindholm-scores-four-goals-in-bruins-7-5-win-over-capitals",
   "https://www.nhl.com/kings/news/2026-27-final-kings-2-senators-4",
   "https://www.nhl.com/islanders/news/cizikas-earns-postgame-oar-in-1-000th-game-palat-gets-helmet",
-  "https://www.nhl.com/blues/news/new-jersey-devils-st-louis-blues-game-recap-november-21-2026-x7152"
+  "https://www.nhl.com/blues/news/new-jersey-devils-st-louis-blues-game-recap-november-21-2026-x7152",
+  "https://www.nba.com/news/victor-wembanyama-finds-another-first-with-a-2nd-50-15-5-stat-line",
+  "https://www.nhl.com/news/anaheim-ducks-utah-mammoth-game-recap-november-21-2026",
+  "https://www.nhl.com/ducks/news/anaheim-ducks-utah-mammoth-game-recap-november-21-2026-x8561",
+  "https://www.nhl.com/bruins/news/washington-capitals-boston-bruins-game-recap-november-21-2026-x7927",
+  "https://www.nhl.com/hurricanes/news/preview-november-22-at-ny-rangers",
+  "https://www.nhl.com/redwings/news/recap-good-compete-level-not-enough-for-red-wings-who-lose-3-2-to-islanders",
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-vs-blue-jackets-nov-21-2026",
+  "https://www.nhl.com/capitals/news/caps-lose-barnburner-in-boston-7-5",
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-lose-barnburner-in-boston-7-5"
  ],
  "days": {
-  "2026-11-08": 5,
   "2026-11-09": 9,
   "2026-11-10": 11,
   "2026-11-11": 8,
@@ -7312,7 +7320,8 @@
   "2026-11-18": 1,
   "2026-11-19": 7,
   "2026-11-20": 4,
-  "2026-11-21": 7
+  "2026-11-21": 7,
+  "2026-11-22": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

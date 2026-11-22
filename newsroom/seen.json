@@ -7401,7 +7401,27 @@
   "https://www.neworleanssaints.com/news/chicago-bears-new-orleans-saints-2026-nfl-week-11-game-recap",
   "https://www.tennesseetitans.com/news/titans-can-t-slow-down-cowboys-lose-51-23-to-drop-to-1-9",
   "https://www.nhl.com/hurricanes/news/recap-canes-top-rangers-complete-winning-weekend",
-  "https://www.nhl.com/rangers/news/rangers-vs-hurricanes-postgame-notes-11-22-26"
+  "https://www.nhl.com/rangers/news/rangers-vs-hurricanes-postgame-notes-11-22-26",
+  "https://www.nfl.com/news/2026-nfl-season-week-11-what-we-learned-from-sunday-s-games",
+  "https://www.mlb.com/news/tarik-skubal-mets-contract",
+  "https://www.mlb.com/news/kyle-schwarber-s-unusual-path-to-500-home-runs",
+  "https://www.mlb.com/news/kazuma-okamoto-has-a-home-run-specialty",
+  "https://www.mlb.com/news/ben-rice-luis-garcia-jr-yankees-first-base-options-for-2027",
+  "https://www.mlb.com/news/how-alex-bregman-delivered-award-winning-1st-season-with-cubs",
+  "https://www.mlb.com/news/notable-braves-contract-extensions",
+  "https://www.mlb.com/news/christian-scott-outlook-for-mets-in-2027",
+  "https://www.buffalobills.com/news/bills-26-dolphins-9-final-score-recap-highlights",
+  "https://www.panthers.com/news/rapid-reactions-panthers-win-second-straight-stay-in-first",
+  "https://www.chicagobears.com/news/bears-win-fifth-straight-game-move-to-8-2-with-victory-over-saints-game-recap",
+  "https://www.dallascowboys.com/news/don-t-forget-these-5-barron-s-tackle-before-halftime",
+  "https://www.dallascowboys.com/news/game-recap-offense-dominates-in-51-30-win",
+  "https://www.denverbroncos.com/news/live-in-game-blog-denver-broncos-vs-las-vegas-raiders-x5244",
+  "https://www.detroitlions.com/news/recap-lions-vs-buccaneers-goff-gibbs-williams",
+  "https://www.packers.com/news/packers-rams-injury-report-nov-22-2026",
+  "https://www.steelers.com/news/steelers-fall-to-eagles-19-16",
+  "https://www.buccaneers.com/news/bucs-lions-week-11-recap-postgame-report-2026",
+  "https://www.buccaneers.com/news/bucs-lose-detroit-lions-week-11-2026-score-31-21",
+  "https://www.buccaneers.com/news/bucs-lions-5-notes-nfl-week-11-2026"
  ],
  "days": {
   "2026-11-09": 9,
@@ -7417,7 +7437,7 @@
   "2026-11-19": 7,
   "2026-11-20": 4,
   "2026-11-21": 7,
-  "2026-11-22": 6
+  "2026-11-22": 7
  },
  "baselined": [
   "https://www.nfl.com/news/",

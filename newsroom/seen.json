@@ -7363,7 +7363,12 @@
   "https://www.tennesseetitans.com/news/game-inactives-week-11-titans-at-cowboys",
   "https://www.nhl.com/canadiens/news/the-rocket-s-teddy-bear-toss-game-is-coming-to-the-bell-centre",
   "https://www.nhl.com/islanders/news/the-skinny-islanders-3-red-wings-2-nov-22-2026",
-  "https://www.nhl.com/islanders/news/islanders-to-host-hockey-fights-cancer-night-on-nov-23-vs-toronto"
+  "https://www.nhl.com/islanders/news/islanders-to-host-hockey-fights-cancer-night-on-nov-23-vs-toronto",
+  "https://www.nfl.com/news/colts-shutting-down-wr-alec-pierce",
+  "https://www.mlb.com/news/tarik-skubal-negotiations-update",
+  "https://www.nhl.com/news/topic/short-shifts/wild-tell-the-story-of-the-night-sky-with-otherworldly-ordeal",
+  "https://www.nhl.com/news/brian-dumoulin-fined-maximum-for-cross-checking-in-kings-game",
+  "https://www.philadelphiaeagles.com/news/steelers-vs-eagles-game-recap-2026-nfl-week-11-salute-to-service-saquon-barkley-devonta-smith-aaron-rodgers-tj-watt"
  ],
  "days": {
   "2026-11-09": 9,
@@ -7379,7 +7384,7 @@
   "2026-11-19": 7,
   "2026-11-20": 4,
   "2026-11-21": 7,
-  "2026-11-22": 3
+  "2026-11-22": 5
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -7686,7 +7686,21 @@
   "https://www.steelers.com/news/learning-situations-all-around",
   "https://www.49ers.com/news/shanahan-earns-100th-career-win-allen-climbs-nfl-receiving-ranks-stats-and-facts-from-minvssf",
   "https://www.commanders.com/news/washington-dc-2027-nfl-draft-countdown-clock-bud-light",
-  "https://www.nhl.com/kings/news/la-kings-place-defenseman-erik-gustafsson-on-injured-reserve"
+  "https://www.nhl.com/kings/news/la-kings-place-defenseman-erik-gustafsson-on-injured-reserve",
+  "https://www.nfl.com/news/packers-micah-parsons-knee-medically-cleared-set-to-make-season-debut-vs-rams",
+  "https://www.nba.com/news/nba-fantasy-high-score-perfect-lineup-from-week-5",
+  "https://www.nba.com/news/brandon-ingram-expected-to-make-clippers-debut-monday-in-houston",
+  "https://www.nba.com/news/nba-fantasy-week-6-yahoo-high-score-heroes",
+  "https://www.denverbroncos.com/news/next-day-notebook-broncos-find-success-in-run-game-continue-offensive-rhythm-in-win-vs-raiders",
+  "https://www.therams.com/news/mcvay-rams-tight-end-terrance-ferguson-to-remain-on-injured-reserve-for-rest-of-2026-season",
+  "https://www.vikings.com/news/oconnell-demeanor-49ers-loss-mexico-week-11",
+  "https://www.neworleanssaints.com/news/the-new-orleans-saints-are-trying-to-turn-hard-lessons-into-wins",
+  "https://www.philadelphiaeagles.com/news/eagles-at-cowboys-injury-report-2026-nfl-week-12-thanksgiving",
+  "https://www.philadelphiaeagles.com/news/toyota-champions-our-nation-heroes-during-salute-to-service-week-2026-steelers-eagles",
+  "https://www.seahawks.com/news/seahawks-sign-trevon-diggs-bobby-hart-to-53-man-roster",
+  "https://www.nhl.com/wild/news/projected-lineup-wild-at-sharks-112326",
+  "https://www.nhl.com/canucks/news/the-week-in-blue-and-green-x0418",
+  "https://www.nhl.com/goldenknights/news/overcoming-the-odds-golden-knights-score-late-beat-jets-in-shootout"
  ],
  "days": {
   "2026-11-10": 11,
@@ -7702,7 +7716,7 @@
   "2026-11-20": 4,
   "2026-11-21": 7,
   "2026-11-22": 11,
-  "2026-11-23": 6
+  "2026-11-23": 7
  },
  "baselined": [
   "https://www.nfl.com/news/",

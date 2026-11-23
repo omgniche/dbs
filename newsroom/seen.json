@@ -7507,10 +7507,25 @@
   "https://www.nhl.com/sabres/news/sabres-lightning-recap-tage-thompson-jack-quinn-benson",
   "https://www.nhl.com/sabres/news/topic/game-coverage/sabres-lightning-recap-tage-thompson-jack-quinn-benson",
   "https://www.nhl.com/redwings/news/red-wings-acquire-michael-hage-kirby-dach-samuel-montembeault-conditional-first-round-selection-and-second-round-pick-in-2027-nhl-entry-draft-conditional-first-round-pick-in-2029-nhl-entry-draft-and-fourth-round-pick-in-2028-nhl-entry-draft-from-montreal-canadiens-in-exchange-for-dylan-larkin-third-round-pick-in-2027-nhl-entry-draft-and-second-round-pick-in-2028-nhl-entry-draft",
-  "https://www.nhl.com/penguins/news/musings-penguins-make-progress-in-1-0-loss-to-dallas"
+  "https://www.nhl.com/penguins/news/musings-penguins-make-progress-in-1-0-loss-to-dallas",
+  "https://www.nhl.com/news/dylan-larkin-saga-ends-with-blockbuster-trade-to-montreal-canadiens",
+  "https://www.nhl.com/news/chicago-blackhawks-vancouver-canucks-game-recap-november-22-2026",
+  "https://www.nhl.com/news/nhl-edge-stats-dylan-larkin-trade-to-montreal-canadiens-2026-27",
+  "https://www.nhl.com/news/color-of-hockey-marcus-laraque-forging-own-path-to-nhl-from-dad-georges",
+  "https://www.nhl.com/news/gavin-mckenna-watch-no-1-pick-maple-leafs-hope-to-end-skid",
+  "https://www.nhl.com/news/rookie-watch-ivar-stenberg-viggo-bjorck-trending-up-with-san-jose-winnipeg",
+  "https://www.nhl.com/news/nhl-nationally-televised-games-for-week-of-november-23-2026",
+  "https://www.buffalobills.com/news/coming-into-our-own-the-bills-defense-delivers-another-touchdown-free-win-in-week-11-against-the-dolphins",
+  "https://www.jaguars.com/news/quick-thoughts-after-jaguars-23-18-loss-to-giants-a-reality-check",
+  "https://www.chiefs.com/news/chiefs-defeat-cardinals-34-7-for-third-win-in-a-row",
+  "https://www.vikings.com/news/49ers-game-observations-slow-start-rough-2nd-quarter-giveaways",
+  "https://www.steelers.com/news/labriola-on-the-loss-to-the-eagles-x2917",
+  "https://www.nhl.com/blackhawks/news/recap-kantserov-nets-first-career-hat-trick-as-blackhawks-top-canucks",
+  "https://www.nhl.com/oilers/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026-x6264",
+  "https://www.nhl.com/kraken/news/anaheim-ducks-vs-seattle-kraken-game-preview-projected-lines-112326",
+  "https://www.nhl.com/blues/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026-x8636"
  ],
  "days": {
-  "2026-11-09": 9,
   "2026-11-10": 11,
   "2026-11-11": 8,
   "2026-11-12": 6,
@@ -7523,7 +7538,8 @@
   "2026-11-19": 7,
   "2026-11-20": 4,
   "2026-11-21": 7,
-  "2026-11-22": 11
+  "2026-11-22": 11,
+  "2026-11-23": 1
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -7735,7 +7735,16 @@
   "https://www.raiders.com/news/by-the-numbers-ashton-jeanty-jack-bech-step-up-against-broncos-to-overcome-absence-of-brock-bowers",
   "https://www.chargers.com/news/justin-herbert-injury-update-nfl-protocol-week-12",
   "https://www.seahawks.com/news/seahawks-qb-sam-darnold-took-a-ton-of-reps-monday-as-he-works-his-way-back-from-injuries",
-  "https://www.commanders.com/news/gameday-blog-commanders-vs-bengals-week-11"
+  "https://www.commanders.com/news/gameday-blog-commanders-vs-bengals-week-11",
+  "https://www.nhl.com/news/connor-bedard-out-four-months-for-chicago-blackhawks-following-shoulder-surgery",
+  "https://www.nhl.com/news/columbus-blue-jackets-new-jersey-devils-game-recap-november-23-2026",
+  "https://www.nhl.com/news/topic/short-shifts/alex-ovechkin-capitals-washington-commanders-game",
+  "https://www.nhl.com/news/gaudreau-parents-help-honor-high-school-captains-at-columbus-blue-jackets-game",
+  "https://www.azcardinals.com/news/cardinals-ring-in-thanksgiving-host-annual-feed-the-hungry-event",
+  "https://www.49ers.com/news/what-the-49ers-and-vikings-had-to-say-after-week-11",
+  "https://www.seahawks.com/news/brooks-running-and-the-seattle-seahawks-join-forces-to-bring-the-spirit-of-running-to-gameday",
+  "https://www.nhl.com/devils/news/game-story-2026020378",
+  "https://www.nhl.com/jets/news/vilardi-hat-trick-powers-jets-past-utah"
  ],
  "days": {
   "2026-11-10": 11,
@@ -7751,7 +7760,7 @@
   "2026-11-20": 4,
   "2026-11-21": 7,
   "2026-11-22": 11,
-  "2026-11-23": 8
+  "2026-11-23": 9
  },
  "baselined": [
   "https://www.nfl.com/news/",

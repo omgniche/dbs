@@ -7762,10 +7762,17 @@
   "https://www.nhl.com/canadiens/news/lak-mtl-game-recap-nov-23-2026",
   "https://www.nhl.com/islanders/news/takeaways-islanders-7-game-point-streak-ends-in-4-2-loss-to-maple-leafs",
   "https://www.nhl.com/senators/news/calgary-flames-ottawa-senators-game-recap-november-23-2026-x3397",
-  "https://www.nhl.com/mapleleafs/news/recap-leafs-islanders-nov-23-2026"
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-islanders-nov-23-2026",
+  "https://www.mlb.com/news/carmine-pagano-inspired-by-jim-abbott-fused-hand",
+  "https://www.nhl.com/news/nhl-staff-writers-rountable-thankful-for-gifts-from-hockey-world-2026",
+  "https://www.nhl.com/news/mark-stone-epitome-of-being-a-vegas-golden-knights-captain",
+  "https://www.nhl.com/news/ted-leonsis-forever-grateful-for-journey-as-owner-of-washington-capitals",
+  "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
+  "https://www.nhl.com/news/coaches-room-6-on-5-scoring-comebacks-on-rise-in-nhl-this-season",
+  "https://www.nhl.com/bluejackets/news/columbus-blue-jackets-new-jersey-devils-game-recap-november-23-2026-x0948",
+  "https://www.nhl.com/utah/news/utah-falls-to-winnipeg-4-2-game-story-11-23-26"
  ],
  "days": {
-  "2026-11-10": 11,
   "2026-11-11": 8,
   "2026-11-12": 6,
   "2026-11-13": 4,
@@ -7778,7 +7785,8 @@
   "2026-11-20": 4,
   "2026-11-21": 7,
   "2026-11-22": 11,
-  "2026-11-23": 9
+  "2026-11-23": 9,
+  "2026-11-24": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

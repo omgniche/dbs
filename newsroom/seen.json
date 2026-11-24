@@ -7727,7 +7727,15 @@
   "https://www.nhl.com/oilers/news/preview-oilers-vs-golden-knights-11-24-26",
   "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
   "https://www.nhl.com/devils/news/live-updates-2026020378",
-  "https://www.nhl.com/utah/news/utah-vs-winnipeg-live-blog-11-23-26"
+  "https://www.nhl.com/utah/news/utah-vs-winnipeg-live-blog-11-23-26",
+  "https://www.nba.com/news/nets-guard-nolan-traore-hamstring-sidelined-8-to-10-weeks",
+  "https://www.nhl.com/news/topic/short-shifts/dylan-larkin-acknowledges-ovation-from-fans",
+  "https://www.nhl.com/news/washington-capitals-celebrate-neal-henderson-legacy-with-mural-unveiling-at-fort-dupont-arena",
+  "https://www.jaguars.com/news/day-after-week-11-loss-to-giants-settling-back-down",
+  "https://www.raiders.com/news/by-the-numbers-ashton-jeanty-jack-bech-step-up-against-broncos-to-overcome-absence-of-brock-bowers",
+  "https://www.chargers.com/news/justin-herbert-injury-update-nfl-protocol-week-12",
+  "https://www.seahawks.com/news/seahawks-qb-sam-darnold-took-a-ton-of-reps-monday-as-he-works-his-way-back-from-injuries",
+  "https://www.commanders.com/news/gameday-blog-commanders-vs-bengals-week-11"
  ],
  "days": {
   "2026-11-10": 11,
@@ -7743,7 +7751,7 @@
   "2026-11-20": 4,
   "2026-11-21": 7,
   "2026-11-22": 11,
-  "2026-11-23": 7
+  "2026-11-23": 8
  },
  "baselined": [
   "https://www.nfl.com/news/",

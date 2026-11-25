@@ -8046,10 +8046,13 @@
   "https://www.neworleanssaints.com/news/martha-firestone-ford-death-detroit-lions-statement-gayle-benson-saints-owner",
   "https://www.steelers.com/news/statement-from-steelers-spokesman-x8902",
   "https://www.nhl.com/blues/news/preview-blues-at-islanders-11252026",
-  "https://www.nhl.com/goldenknights/news/vegas-sweeps-canadian-trip-with-5-3-win-in-edmonton"
+  "https://www.nhl.com/goldenknights/news/vegas-sweeps-canadian-trip-with-5-3-win-in-edmonton",
+  "https://www.nhl.com/hurricanes/news/preview-november-25-at-tampa-bay",
+  "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+  "https://www.nhl.com/islanders/news/game-preview-islanders-vs-blues-nov-25-2026",
+  "https://www.nhl.com/kraken/news/chicago-blackhawks-vs-seattle-kraken-game-preview-projected-lines-112526"
  ],
  "days": {
-  "2026-11-11": 8,
   "2026-11-12": 6,
   "2026-11-13": 4,
   "2026-11-14": 4,
@@ -8062,7 +8065,8 @@
   "2026-11-21": 7,
   "2026-11-22": 11,
   "2026-11-23": 9,
-  "2026-11-24": 3
+  "2026-11-24": 3,
+  "2026-11-25": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

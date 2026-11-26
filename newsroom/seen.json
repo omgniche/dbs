@@ -8300,7 +8300,26 @@
   "https://www.packers.com/news/in-game-updates-week-12-rams-2026",
   "https://www.seahawks.com/news/zach-charbonnet-jadarian-price-have-been-a-great-one-two-punch",
   "https://www.mlb.com/news/shohei-ohtani-intends-to-remain-a-two-way-player",
-  "https://www.nhl.com/utah/news/utah-vs-minnesota-live-blog-11-25-26"
+  "https://www.nhl.com/utah/news/utah-vs-minnesota-live-blog-11-25-26",
+  "https://www.nfl.com/news/packers-wr-christian-watson-being-evaluated-for-concussion-after-hit-by-rams-kamren-kinchens-who-was-ejected",
+  "https://www.nhl.com/news/carolina-hurricanes-tampa-bay-lightning-game-recap-november-25-2026",
+  "https://www.nhl.com/news/winnipeg-jets-boston-bruins-game-recap-november-25-2026",
+  "https://www.nhl.com/news/new-jersey-devils-columbus-blue-jackets-game-recap-november-25-2026",
+  "https://www.nhl.com/news/new-york-islanders-st-louis-blues-game-recap-november-25-2026",
+  "https://www.nhl.com/news/philadelphia-flyers-washington-capitals-game-recap-november-25-2026",
+  "https://www.nhl.com/news/calgary-flames-pittsburgh-penguins-game-recap-november-25-2026",
+  "https://www.nhl.com/news/ottawa-senators-florida-panthers-game-recap-november-25-2026",
+  "https://www.nhl.com/news/new-york-rangers-buffalo-sabres-game-recap-november-25-2026",
+  "https://www.newyorkjets.com/news/garrett-wilson-geno-smith-seek-new-miami-memories-11-25-2026",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-new-york-rangers-recap-highlights-x0298",
+  "https://www.nhl.com/flames/news/flames-double-up-penguins-6-3",
+  "https://www.nhl.com/hurricanes/news/recap-late-surge-lifts-canes-past-lightning",
+  "https://www.nhl.com/devils/news/game-story-2026020393",
+  "https://www.nhl.com/rangers/news/rangers-at-sabres-postgame-notes-11-25-26",
+  "https://www.nhl.com/senators/news/ottawa-senators-florida-panthers-game-recap-november-25-2026-x3610",
+  "https://www.nhl.com/flyers/news/postgame-rav4-flyers-lose-to-caps-7-3",
+  "https://www.nhl.com/penguins/news/malkin-passes-trottier-for-19th-most-points-in-nhl-history",
+  "https://www.nhl.com/jets/news/connor-keeps-scoring-jets-beat-bruins"
  ],
  "days": {
   "2026-11-12": 6,
@@ -8316,7 +8335,7 @@
   "2026-11-22": 11,
   "2026-11-23": 9,
   "2026-11-24": 3,
-  "2026-11-25": 6
+  "2026-11-25": 7
  },
  "baselined": [
   "https://www.nfl.com/news/",

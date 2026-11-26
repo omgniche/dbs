@@ -8289,7 +8289,18 @@
   "https://www.seahawks.com/news/week-12-injury-report-seahawks-at-49ers",
   "https://www.mlb.com/news/ian-walsh-max-gordon-athletics-directors-of-pitching-hitting",
   "https://www.nhl.com/flames/news/projected-lineup-flames-penguins-25-11-26",
-  "https://www.nhl.com/devils/news/live-updates-2026020393"
+  "https://www.nhl.com/devils/news/live-updates-2026020393",
+  "https://www.nfl.com/news/broncos-adjust-for-post-aaron-rodgers-steelers-ahead-of-friday-s-big-afc-clash",
+  "https://www.nfl.com/news/colts-alec-pierce-partially-tore-achilles-in-week-2-still-hopes-to-return-this-season",
+  "https://www.nhl.com/news/topic/short-shifts/alex-ovechkin-washington-capitals-career-leader-assists",
+  "https://www.nhl.com/news/topic/short-shifts/new-york-islanders-honor-casey-cizkas-1000-nhl-games-ceremony",
+  "https://www.bengals.com/news/quick-hits-joe-burrow-keeps-throwing-d-j-turner-ii-s-short-memory",
+  "https://www.denverbroncos.com/news/rb-jonah-coleman-named-fedex-air-ground-player-of-the-week-for-week-11-performance",
+  "https://www.packers.com/news/live-chat-packers-vs-rams-week-12-2026",
+  "https://www.packers.com/news/in-game-updates-week-12-rams-2026",
+  "https://www.seahawks.com/news/zach-charbonnet-jadarian-price-have-been-a-great-one-two-punch",
+  "https://www.mlb.com/news/shohei-ohtani-intends-to-remain-a-two-way-player",
+  "https://www.nhl.com/utah/news/utah-vs-minnesota-live-blog-11-25-26"
  ],
  "days": {
   "2026-11-12": 6,
@@ -8305,7 +8316,7 @@
   "2026-11-22": 11,
   "2026-11-23": 9,
   "2026-11-24": 3,
-  "2026-11-25": 5
+  "2026-11-25": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",

@@ -8349,10 +8349,23 @@
   "https://www.nhl.com/lightning/news/mishkin-s-extra-shift-carolina-hurricanes-3-tampa-bay-lightning-1",
   "https://www.nhl.com/lightning/news/topic/mishkins-extra-shift/mishkin-s-extra-shift-carolina-hurricanes-3-tampa-bay-lightning-1",
   "https://www.nhl.com/capitals/news/caps-fly-by-philly-7-3",
-  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-fly-by-philly-7-3"
+  "https://www.nhl.com/capitals/news/topic/dump-n-chase/caps-fly-by-philly-7-3",
+  "https://www.nfl.com/news/packers-rams-on-wednesday-night-what-we-learned-from-los-angeles-26-13-win-over-green-bay",
+  "https://www.nba.com/news/magic-sign-kevin-porter-jr",
+  "https://www.mlb.com/news/a-j-puk-contract-nationals",
+  "https://www.nhl.com/news/chicago-blackhawks-seattle-kraken-game-recap-november-25-2026",
+  "https://www.nhl.com/news/montreal-canadiens-colorado-avalanche-game-recap-november-25-2026",
+  "https://www.nhl.com/news/aleksander-barkov-brad-marchand-returns-give-florida-panthers-instant-lift",
+  "https://www.nhl.com/ducks/news/gauthier-continues-to-make-history",
+  "https://www.nhl.com/bruins/news/winnipeg-jets-boston-bruins-game-recap-november-25-2026-x3734",
+  "https://www.nhl.com/sabres/news/buffalo-sabres-new-york-rangers-recap-highlights-x3378",
+  "https://www.nhl.com/avalanche/news/game-recap-11-25-26",
+  "https://www.nhl.com/canadiens/news/mtl-col-game-recap-nov-25-2026",
+  "https://www.nhl.com/islanders/news/eklund-gets-oar-sorokin-gets-helmet-nov-25-2026",
+  "https://www.nhl.com/kraken/news/postgame-instant-analysis-chicago-blackhawks-seattle-kraken-112526",
+  "https://www.nhl.com/kraken/news/final-buzzer-chicago-blackhawks-seattle-kraken-game-recap-112526"
  ],
  "days": {
-  "2026-11-12": 6,
   "2026-11-13": 4,
   "2026-11-14": 4,
   "2026-11-15": 5,
@@ -8365,7 +8378,8 @@
   "2026-11-22": 11,
   "2026-11-23": 9,
   "2026-11-24": 3,
-  "2026-11-25": 7
+  "2026-11-25": 7,
+  "2026-11-26": 0
  },
  "baselined": [
   "https://www.nfl.com/news/",

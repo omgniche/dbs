@@ -8671,7 +8671,27 @@
   "https://www.nhl.com/predators/news/preds-score-five-fall-to-mammoth-in-shootout-2026-11-27",
   "https://www.nhl.com/devils/news/rittich-loaned-to-utica-transaction-11-27-26",
   "https://www.nhl.com/mapleleafs/news/maple-leafs-announce-additions-to-sport-performance-department-led-by-andy-o-brien",
-  "https://www.nhl.com/mapleleafs/news/maple-leafs-sign-defenceman-alexander-bilecki-to-entry-level-contract"
+  "https://www.nhl.com/mapleleafs/news/maple-leafs-sign-defenceman-alexander-bilecki-to-entry-level-contract",
+  "https://www.nfl.com/news/broncos-steelers-on-black-friday-what-we-learned-from-pittsburgh-s-27-5-win-over-denver",
+  "https://www.nfl.com/news/brock-purdy-ankle-out-49ers-seahawks-mac-jones-start",
+  "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-27",
+  "https://www.nhl.com/news/connor-hellebuyck-expected-in-net-for-new-jersey-devils-against-winnipeg-jets",
+  "https://www.nhl.com/news/detroit-red-wings-columbus-blue-jackets-game-recap-november-27-2026",
+  "https://www.nhl.com/news/vancouver-canucks-philadelphia-flyers-game-recap-november-27-2026",
+  "https://www.nhl.com/news/florida-panthers-washington-capitals-game-recap-november-27-2026",
+  "https://www.nhl.com/news/ottawa-senators-tampa-bay-lightning-game-recap-november-27-2026",
+  "https://www.nhl.com/news/topic/short-shifts/short-shifts-power-rankings-november-27-2026",
+  "https://www.baltimoreravens.com/news/marlon-humphrey-ravens-texans-will-anderson-roger-rosengarten-week-12-2026",
+  "https://www.panthers.com/news/the-panthers-linebacker-depth-and-experience-is-proving-crucial-during-important-stretch-devin-lloyd-bobby-okereke-tyrel-dodson",
+  "https://www.raiders.com/news/playing-with-passion-30-raiders-participating-in-nfl-2026-my-cause-my-cleats-campaign",
+  "https://www.chargers.com/news/dj-uiagalelei-justin-herbert-starter-patriots-2026",
+  "https://www.steelers.com/news/steelers-top-broncos-27-5-at-home",
+  "https://www.steelers.com/news/boswell-ties-steelers-all-time-scoring-record",
+  "https://www.49ers.com/news/5-things-to-know-49ers-week-12-matchup-vs-seahawks-mcmc",
+  "https://www.seahawks.com/news/seahawks-announce-week-12-captains-vs-the-49ers",
+  "https://www.nhl.com/flyers/news/postgame-rav4-flyers-conquer-canucks-5-2",
+  "https://www.nhl.com/mapleleafs/news/recap-leafs-bruins-nov-27-2026",
+  "https://www.nhl.com/utah/news/utah-secures-shootout-win-in-nashville-game-story-11-27-26"
  ],
  "days": {
   "2026-11-14": 4,
@@ -8687,7 +8707,7 @@
   "2026-11-24": 3,
   "2026-11-25": 7,
   "2026-11-26": 3,
-  "2026-11-27": 4
+  "2026-11-27": 6
  },
  "baselined": [
   "https://www.nfl.com/news/",
